@@ -21,9 +21,9 @@ end
 | download rank           |  [![Downloads Today](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://github.com/pboling/rspec-stubbed_env) |
 | version                 |  [![Version](https://img.shields.io/gem/v/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env) |
 | continuous integration  |  [![Build Status](https://travis-ci.org/pboling/rspec-stubbed_env.svg?branch=master)](https://travis-ci.org/pboling/rspec-stubbed_env) |
-| test coverage           |  [![Test Coverage](https://api.codeclimate.com/v1/badges/ced7e39984dd9c27c528/test_coverage)](https://codeclimate.com/github/pboling/rspec-stubbed_env/test_coverage) |
-| maintainability         |  [![Maintainability](https://api.codeclimate.com/v1/badges/ced7e39984dd9c27c528/maintainability)](https://codeclimate.com/github/pboling/rspec-stubbed_env/maintainability) |
-| dependencies            |  [![Depfu](https://badges.depfu.com/badges/6633827ecc1ad3b5dd749b4ac822347b/count.svg)](https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5828) |
+| test coverage           |  [![Test Coverage](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/test_coverage)](https://codeclimate.com/github/pboling/rspec-stubbed_env/test_coverage) |
+| maintainability         |  [![Maintainability](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/maintainability)](https://codeclimate.com/github/pboling/rspec-stubbed_env/maintainability) |
+| dependencies            |  [![Depfu](https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg)](https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884) |
 | code triage             |  [![Open Source Helpers](https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg)](https://www.codetriage.com/pboling/rspec-stubbed_env) |
 | homepage                |  [on Github.com][homepage], [on Railsbling.com][blogpage] |
 | documentation           |  [on RDoc.info][documentation] |
