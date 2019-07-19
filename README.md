@@ -1,6 +1,6 @@
 # RSpec::StubbedEnv
 
-ENV stubbing via a shared context for more powerful tests.
+ENV stubbing via a shared context for more powerful tests.  Now you don't need to add dotenv just for your spec suite.
 
 ```ruby
 describe 'my stubbed test' do
