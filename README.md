@@ -57,6 +57,11 @@ RSpec.configure do |config|
 end
 ```
 
+Require the library in your spec/test helper somewhere:
+```
+require 'rspec/stubbed_env'
+```
+
 ## Usage
 
 ENV stubbing:
