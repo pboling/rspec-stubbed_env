@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'bundler/setup'
-
 require 'support/fake_rails'
 require 'support/foo_by_env'
 

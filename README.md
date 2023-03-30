@@ -9,7 +9,7 @@ describe 'my stubbed test' do
     stub_env('FOO' => 'is bar')
   end
   it 'has a value' do
-    expect(ENV['FOO']).to eq('is bar')
+    expect(ENV.fetch('FOO', nil)).to eq('is bar')
   end
 end
 ```
@@ -64,7 +64,7 @@ require 'rspec/stubbed_env'
 ## Usage
 
 ENV stubbing:
- 
+
   - is opt-in, via a shared context, rather than global.
   - *does not* affect the real ENV at all.  It is a true stub.
   - has the same scope as a `before`, `subject`, or `let` at the same level.
@@ -75,7 +75,7 @@ See the spec suite for detailed examples.
 # This is normal, without stubbing, ENV is not set
 describe 'vanilla' do
   it 'has no ENV stub' do
-    expect(ENV['FOO']).to be_nil
+    expect(ENV.fetch('FOO', nil)).to be_nil
   end
 end
 
@@ -86,7 +86,7 @@ describe 'my stubbed test' do
     stub_env('FOO' => 'is bar')
   end
   it 'has a value' do
-    expect(ENV['FOO']).to eq('is bar')
+    expect(ENV.fetch('FOO', nil)).to eq('is bar')
   end
 end
 ```

@@ -1,0 +1,14 @@
+{
+  "spec/rspec/stubbed_env/test_helpers_spec.rb:2212674991": [
+    [5, 1, 3814, "Metrics/BlockLength: Block has too many lines. [106/25]", 1612978409],
+    [6, 3, 3759, "Metrics/BlockLength: Block has too many lines. [104/25]", 4245893225],
+    [19, 5, 1692, "Metrics/BlockLength: Block has too many lines. [46/25]", 1587975606],
+    [67, 5, 1676, "Metrics/BlockLength: Block has too many lines. [42/25]", 1565238032]
+  ],
+  "spec/support/fake_rails.rb:4231541358": [
+    [3, 1, 11, "Style/Documentation: Missing top-level documentation comment for `class Rails`.", 68356206]
+  ],
+  "spec/support/foo_by_env.rb:1894327797": [
+    [3, 1, 14, "Style/Documentation: Missing top-level documentation comment for `class FooByEnv`.", 3522946123]
+  ]
+}

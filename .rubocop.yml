@@ -1,2 +1,9 @@
 require:
   - rubocop-packaging
+  - rubocop-rake
+  - rubocop-md
+  - rubocop-performance
+  - rubocop-thread_safety
+
+inherit_gem:
+  rubocop-lts: rubocop-lts.yml

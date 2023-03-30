@@ -50,7 +50,7 @@ module RSpec
       end
 
       def env_stubbed?
-        ENV[STUBBED_KEY]
+        ENV.fetch(STUBBED_KEY, nil)
       end
 
       def init_stub
