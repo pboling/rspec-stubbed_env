@@ -14,20 +14,20 @@ describe 'my stubbed test' do
 end
 ```
 
-| Project                 |  RSpec::StubbedEnv |
-|------------------------ | ----------------------- |
-| gem name                |  [rspec-stubbed_env](https://rubygems.org/gems/rspec-stubbed_env) |
-| license                 |  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) |
-| download rank           |  [![Downloads Today](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://github.com/pboling/rspec-stubbed_env) |
-| version                 |  [![Version](https://img.shields.io/gem/v/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env) |
-| continuous integration  |  [![Build Status](https://travis-ci.org/pboling/rspec-stubbed_env.svg?branch=master)](https://travis-ci.org/pboling/rspec-stubbed_env) |
-| test coverage           |  [![Test Coverage](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/test_coverage)](https://codeclimate.com/github/pboling/rspec-stubbed_env/test_coverage) |
-| maintainability         |  [![Maintainability](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/maintainability)](https://codeclimate.com/github/pboling/rspec-stubbed_env/maintainability) |
-| dependencies            |  [![Depfu](https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg)](https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884) |
-| code triage             |  [![Open Source Helpers](https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg)](https://www.codetriage.com/pboling/rspec-stubbed_env) |
-| homepage                |  [on Github.com][homepage], [on Railsbling.com][blogpage] |
-| documentation           |  [on RDoc.info][documentation] |
-| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [:shipit:](http://coderwall.com/pboling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo) |
+| Project                 | RSpec::StubbedEnv                                                                                                                                                                                                                           |
+|------------------------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| gem name                | [rspec-stubbed_env](https://rubygems.org/gems/rspec-stubbed_env)                                                                                                                                                                            |
+| license                 | [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)                                                                                                                                  |
+| download rank           | [![Downloads Today](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://github.com/pboling/rspec-stubbed_env)                                                                                                                     |
+| version                 | [![Version](https://img.shields.io/gem/v/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env)                                                                                                                               |
+| continuous integration  | [![Build Status](https://travis-ci.org/pboling/rspec-stubbed_env.svg?branch=main)](https://travis-ci.org/pboling/rspec-stubbed_env)                                                                                                         |
+| test coverage           | [![Test Coverage](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/test_coverage)](https://codeclimate.com/github/pboling/rspec-stubbed_env/test_coverage)                                                                        |
+| maintainability         | [![Maintainability](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/maintainability)](https://codeclimate.com/github/pboling/rspec-stubbed_env/maintainability)                                                                  |
+| dependencies            | [![Depfu](https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg)](https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884)                                                                                  |
+| code triage             | [![Open Source Helpers](https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg)](https://www.codetriage.com/pboling/rspec-stubbed_env)                                                                                       |
+| homepage                | [on Github.com][homepage], [on Railsbling.com][blogpage]                                                                                                                                                                                    |
+| documentation           | [on RDoc.info][documentation]                                                                                                                                                                                                               |
+| Spread ~♡ⓛⓞⓥⓔ♡~      | [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [:shipit:](http://coderwall.com/pboling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo) |
 
 ## Installation
 
@@ -89,6 +89,16 @@ describe 'my stubbed test' do
     expect(ENV['FOO']).to eq('is bar')
   end
 end
+```
+
+## Upgrading
+
+We recently migrated from `master` to `main` as the default branch.  If this affected your local checkout:
+```shell
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
 ```
 
 ## Development
