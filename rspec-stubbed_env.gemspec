@@ -28,7 +28,15 @@ stub_env(
   spec.metadata['wiki_uri'] = "#{spec.homepage}/wiki"
   spec.metadata['rubygems_mfa_required'] = 'true'
 
-  spec.files         = Dir['lib/**/*', 'LICENSE', 'README.md']
+  spec.files         = Dir[
+    # Splats (alphabetical)
+    "lib/**/*.rb",
+    # Files (alphabetical)
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "LICENSE.txt",
+    "README.md"
+  ]
   spec.bindir        = 'exe'
   spec.require_paths = ['lib']
 
