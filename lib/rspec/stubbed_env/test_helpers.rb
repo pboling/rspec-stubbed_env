@@ -15,6 +15,9 @@
 #   end
 # end
 #
+# NOTE: This file was originally written by Liam Bennet (https://github.com/ljkbennett)
+#       as part of the stub_env library (https://github.com/ljkbennett/stub_env).
+#       It has evolved since then.
 module RSpec
   module StubbedEnv
     # Helpers to unobtrusively stub ENV

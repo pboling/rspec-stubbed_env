@@ -7,7 +7,7 @@ require 'rspec/stubbed_env/version'
 Gem::Specification.new do |spec|
   spec.name          = 'rspec-stubbed_env'
   spec.version       = RSpec::StubbedEnv::VERSION
-  spec.authors       = ['Peter Boling']
+  spec.authors       = ['Liam Bennett', 'Peter Boling']
   spec.email         = ['peter.boling@gmail.com']
 
   spec.summary       = 'Unobtrusively stub ENV keys and values during testing'

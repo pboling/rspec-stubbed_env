@@ -135,7 +135,8 @@ spec.add_dependency 'rspec-stubbed_env', '~> 1.0'
 
 ## License
 
-* Copyright (c) 2018-2020, 2023 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
+* Copyright © 2014 LittlOwlLabs [Liam Bennet](https://github.com/ljkbennett)
+* Copyright © 2018-2020, 2023 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
