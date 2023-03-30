@@ -16,4 +16,3 @@
 .nosync
 
 *.gem
-/Gemfile.lock
