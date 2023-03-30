@@ -19,6 +19,15 @@ stub_env(
   spec.homepage      = 'https://github.com/pboling/rspec-stubbed_env'
   spec.license       = 'MIT'
 
+  spec.metadata['homepage_uri'] = spec.homepage
+  spec.metadata['source_code_uri'] = "#{spec.homepage}/tree/v#{spec.version}"
+  spec.metadata['changelog_uri'] = "#{spec.homepage}/blob/v#{spec.version}/CHANGELOG.md"
+  spec.metadata['bug_tracker_uri'] = "#{spec.homepage}/issues"
+  spec.metadata['documentation_uri'] = "https://www.rubydoc.info/gems/#{spec.name}/#{spec.version}"
+  spec.metadata['funding_uri'] = 'https://liberapay.com/pboling'
+  spec.metadata['wiki_uri'] = "#{spec.homepage}/wiki"
+  spec.metadata['rubygems_mfa_required'] = 'true'
+
   spec.files         = Dir['lib/**/*', 'LICENSE', 'README.md']
   spec.bindir        = 'exe'
   spec.require_paths = ['lib']
