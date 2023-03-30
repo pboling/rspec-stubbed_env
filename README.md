@@ -27,7 +27,7 @@ end
 | code triage             |  [![Open Source Helpers](https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg)](https://www.codetriage.com/pboling/rspec-stubbed_env) |
 | homepage                |  [on Github.com][homepage], [on Railsbling.com][blogpage] |
 | documentation           |  [on RDoc.info][documentation] |
-| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [:shipit:](http://coderwall.com/pboling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo), [🌹](https://nationalprogressiveparty.org) |
+| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [:shipit:](http://coderwall.com/pboling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo) |
 
 ## Installation
 
@@ -125,7 +125,7 @@ spec.add_dependency 'rspec-stubbed_env', '~> 1.0'
 
 ## License
 
-* Copyright (c) 2018 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
+* Copyright (c) 2018-2020, 2023 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
