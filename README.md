@@ -126,7 +126,7 @@ See [CONTRIBUTING.md][contributing].
 
 ## Code of Conduct
 
-Everyone interacting in the AnonymousActiveRecord project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/pboling/rspec-stubbed_env/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the AnonymousActiveRecord project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct][conduct].
 
 ## Versioning
 
@@ -160,6 +160,7 @@ or in a `gemspec`
 [blogpage]: http://www.railsbling.com/tags/rspec-stubbed_env/
 [cc-cov]: https://codeclimate.com/github/pboling/rspec-stubbed_env/test_coverage
 [cc-covi]: https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/test_coverage
+[conduct]: CODE_OF_CONDUCT.md
 [contributing]: CONTRIBUTING.md
 [depfu]: https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884
 [depfu-img]: https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg
