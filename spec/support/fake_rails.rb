@@ -4,7 +4,7 @@
 class Rails
   class << self
     def env
-      'test'
+      "test"
     end
   end
 end

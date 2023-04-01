@@ -16,8 +16,6 @@
 # end
 #
 
-if defined?(RSpec)
-  RSpec.shared_context 'with stubbed env' do
-    include RSpec::StubbedEnv::TestHelpers
-  end
+RSpec.shared_context("with stubbed env") do
+  include RSpec::StubbedEnv::TestHelpers
 end

@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "rubocop-gradual", :require => false
+gem "rubocop-lts", "~> 18.0", :require => false # Support Ruby 2.7+
+gem "rubocop-md", :require => false
+gem "rubocop-packaging", :require => false
+gem "rubocop-performance", :require => false
+gem "rubocop-rake", :require => false
+gem "rubocop-rspec", :require => false
+gem "rubocop-shopify", :require => false
+gem "rubocop-thread_safety", :require => false
+gem "standard", :require => false
+
+gemspec :path => "../"

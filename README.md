@@ -3,13 +3,13 @@
 ENV stubbing via a shared context for more powerful tests.  Now you don't need to add dotenv just for your spec suite.
 
 ```ruby
-describe 'my stubbed test' do
-  include_context 'with stubbed env'
+describe "my stubbed test" do
+  include_context "with stubbed env"
   before do
-    stub_env('FOO' => 'is bar')
+    stub_env("FOO" => "is bar")
   end
-  it 'has a value' do
-    expect(ENV.fetch('FOO', nil)).to eq('is bar')
+  it "has a value" do
+    expect(ENV.fetch("FOO", nil)).to(eq("is bar"))
   end
 end
 ```
@@ -34,7 +34,7 @@ end
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rspec-stubbed_env', group: :test
+gem "rspec-stubbed_env", :group => :test
 ```
 
 And then execute:
@@ -50,7 +50,7 @@ You must configure RSpec to use the `:expect` syntax, or some compatible alterna
 
 ```ruby
 RSpec.configure do |config|
-  config.expect_with :rspec do |c|
+  config.expect_with(:rspec) do |c|
     c.syntax = :expect
   end
 end
@@ -58,7 +58,7 @@ end
 
 Require the library in your spec/test helper somewhere:
 ```
-require 'rspec/stubbed_env'
+require "rspec/stubbed_env"
 ```
 
 ## Usage
@@ -73,20 +73,20 @@ See the spec suite for detailed examples.
 
 ```ruby
 # This is normal, without stubbing, ENV is not set
-describe 'vanilla' do
-  it 'has no ENV stub' do
-    expect(ENV.fetch('FOO', nil)).to be_nil
+describe "vanilla" do
+  it "has no ENV stub" do
+    expect(ENV.fetch("FOO", nil)).to(be_nil)
   end
 end
 
 # With a stubbed ENV!
-describe 'my stubbed test' do
-  include_context 'with stubbed env'
+describe "my stubbed test" do
+  include_context "with stubbed env"
   before do
-    stub_env('FOO' => 'is bar')
+    stub_env("FOO" => "is bar")
   end
-  it 'has a value' do
-    expect(ENV.fetch('FOO', nil)).to eq('is bar')
+  it "has a value" do
+    expect(ENV.fetch("FOO", nil)).to(eq("is bar"))
   end
 end
 ```
@@ -130,7 +130,7 @@ dependency on this gem using the [Pessimistic Version Constraint][pvc] with two 
 For example:
 
 ```ruby
-spec.add_dependency 'rspec-stubbed_env', '~> 2.0'
+spec.add_dependency("rspec-stubbed_env", "~> 2.0")
 ```
 
 ## License
