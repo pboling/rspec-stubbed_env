@@ -3,7 +3,8 @@
 require "support/fake_rails"
 require "support/foo_by_env"
 
-require "simplecov"
+# If not on CI, or if coverage is turned on
+require "simplecov" if ENV["CI"].nil? || ENV["COVERAGE"] == "true"
 
 require "rspec/stubbed_env"
 require "rspec/block_is_expected"

@@ -3,6 +3,7 @@ name: Code Coverage
 env:
   CI_CODECOV: true
   COVER_ALL: true
+  COVERAGE: true
 
 on:
   push:
