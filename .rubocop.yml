@@ -1,8 +1,9 @@
 require:
-  - rubocop-packaging
-  - rubocop-rake
   - rubocop-md
+  - rubocop-packaging
   - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
   - rubocop-thread_safety
 
 inherit_gem:

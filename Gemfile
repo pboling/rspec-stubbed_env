@@ -12,4 +12,5 @@ gem 'rubocop-lts', '~> 18.0' # Support Ruby 2.7+
 gem 'rubocop-md'
 gem 'rubocop-performance'
 gem 'rubocop-rake'
+gem 'rubocop-rspec'
 gem 'rubocop-thread_safety'
