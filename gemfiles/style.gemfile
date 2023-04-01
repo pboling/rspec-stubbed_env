@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-eval_gemfile "./gems/core.gemfile"
-eval_gemfile "./gems/style.gemfile"
+eval_gemfile "./contexts/core.gemfile"
+eval_gemfile "./contexts/style.gemfile"
 
 gemspec :path => "../"

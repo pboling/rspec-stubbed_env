@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 
-eval_gemfile "./gems/core.gemfile"
+eval_gemfile "./contexts/core.gemfile"
 
 gemspec :path => "../"
