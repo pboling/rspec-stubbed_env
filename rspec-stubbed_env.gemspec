@@ -10,6 +10,10 @@ Gem::Specification.new do |spec|
   spec.authors = ["Liam Bennett", "Peter Boling"]
   spec.email = ["peter.boling@gmail.com"]
 
+  # See CONTRIBUTING.md
+  spec.cert_chain  = ["certs/pboling.pem"]
+  spec.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
+
   spec.summary = "Unobtrusively stub ENV keys and values during testing"
   spec.description = %[Stub environment variables in a scoped context for testing
 stub_env(
