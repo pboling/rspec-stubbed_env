@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 - support for symbol keys (@hosamaly)
 - Structured gemfiles
 - Rubocop with standard, gradual, & more
+- Releases are now signed
+- Releases now have checksums
 ### Changed
 - Required ruby version in gemspec >= 1.8.7
   - not bumping major version, because this was already the de-facto minimum
