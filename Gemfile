@@ -18,6 +18,9 @@ if LOCAL_SUPPORTED
   # Linting
   eval_gemfile "./gemfiles/contexts/style.gemfile"
 
+  # Testing
+  eval_gemfile "./gemfiles/contexts/testing.gemfile"
+
   # Documentation
   eval_gemfile "./gemfiles/contexts/docs.gemfile"
 end
