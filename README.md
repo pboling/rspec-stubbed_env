@@ -130,7 +130,7 @@ dependency on this gem using the [Pessimistic Version Constraint][pvc] with two 
 For example:
 
 ```ruby
-spec.add_dependency 'rspec-stubbed_env', '~> 1.0'
+spec.add_dependency 'rspec-stubbed_env', '~> 2.0'
 ```
 
 ## License

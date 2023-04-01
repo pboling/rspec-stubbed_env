@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rspec-stubbed_env (1.0.0)
+    rspec-stubbed_env (2.0.0)
 
 GEM
   remote: https://rubygems.org/
