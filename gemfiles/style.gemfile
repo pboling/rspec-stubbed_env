@@ -13,4 +13,7 @@ gem "rubocop-shopify", :require => false
 gem "rubocop-thread_safety", :require => false
 gem "standard", :require => false
 
+# Dev
+gem "rake", "~> 13.0"
+
 gemspec :path => "../"

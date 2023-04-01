@@ -2,4 +2,11 @@
 
 source "https://rubygems.org"
 
+# Dev
+gem "rake", "~> 13.0"
+
+# Testing
+gem "rspec", "~> 3.8"
+gem "rspec-block_is_expected", "~> 1.0"
+
 gemspec :path => "../"
