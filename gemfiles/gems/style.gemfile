@@ -1,0 +1,10 @@
+gem "rubocop-gradual", "~> 0.3", :require => false
+gem "rubocop-lts", "~> 18.0", :require => false # Support Ruby 2.7+
+gem "rubocop-md", "~> 1.2", :require => false
+gem "rubocop-packaging", "~> 0.5", :require => false
+gem "rubocop-performance", "~> 1.16", :require => false
+gem "rubocop-rake", "~> 0.6", :require => false
+gem "rubocop-rspec", "~> 2.19", :require => false
+gem "rubocop-shopify", "~> 2.12", :require => false
+gem "rubocop-thread_safety", "~> 0.5", :require => false
+gem "standard", "~> 1.25", :require => false
