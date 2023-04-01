@@ -14,20 +14,20 @@ describe "my stubbed test" do
 end
 ```
 
-| Project                 | RSpec::StubbedEnv                                                                                                                                                                                                                           |
-|------------------------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| gem name                | [rspec-stubbed_env](https://rubygems.org/gems/rspec-stubbed_env)                                                                                                                                                                            |
-| license                 | [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)                                                                                                                                  |
-| download rank           | [![Downloads Today](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://github.com/pboling/rspec-stubbed_env)                                                                                                                     |
-| version                 | [![Version](https://img.shields.io/gem/v/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env)                                                                                                                               |
-| continuous integration  | [![Build Status](https://travis-ci.org/pboling/rspec-stubbed_env.svg?branch=main)](https://travis-ci.org/pboling/rspec-stubbed_env)                                                                                                         |
-| test coverage           | [![Test Coverage](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/test_coverage)](https://codeclimate.com/github/pboling/rspec-stubbed_env/test_coverage)                                                                        |
-| maintainability         | [![Maintainability](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/maintainability)](https://codeclimate.com/github/pboling/rspec-stubbed_env/maintainability)                                                                  |
-| dependencies            | [![Depfu](https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg)](https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884)                                                                                  |
-| code triage             | [![Open Source Helpers](https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg)](https://www.codetriage.com/pboling/rspec-stubbed_env)                                                                                       |
-| homepage                | [on Github.com][homepage], [on Railsbling.com][blogpage]                                                                                                                                                                                    |
-| documentation           | [on RDoc.info][documentation]                                                                                                                                                                                                               |
-| Spread ~♡ⓛⓞⓥⓔ♡~      | [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [⚗️](https://dev.to/galtzo), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo) |
+| Project                 | RSpec::StubbedEnv                                                                                                                                                          |
+|------------------------ |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| gem name                | [rspec-stubbed_env](https://rubygems.org/gems/rspec-stubbed_env)                                                                                                           |
+| license                 | [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)                                                                 |
+| download rank           | [![Downloads Today](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://github.com/pboling/rspec-stubbed_env)                                                    |
+| version                 | [![Version](https://img.shields.io/gem/v/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env)                                                              |
+| dependencies            | [![Depfu][depfu-img]][depfu]                                                                                                                                               |
+| continuous integration  | [![Build Status](https://travis-ci.org/pboling/rspec-stubbed_env.svg?branch=main)](https://travis-ci.org/pboling/rspec-stubbed_env)                                        |
+| test coverage           | [![Test Coverage](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/test_coverage)](https://codeclimate.com/github/pboling/rspec-stubbed_env/test_coverage)       |
+| maintainability         | [![Maintainability](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/maintainability)](https://codeclimate.com/github/pboling/rspec-stubbed_env/maintainability) |
+| code triage             | [![Open Source Helpers](https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg)](https://www.codetriage.com/pboling/rspec-stubbed_env)                      |
+| homepage                | [on Github.com][homepage], [on Railsbling.com][blogpage]                                                                                                                   |
+| documentation           | [on RDoc.info][documentation]                                                                                                                                              |
+| Spread ~♡ⓛⓞⓥⓔ♡~      | [🌏][aboutme], [👼][angellist], [⚗️][devto], [![Tweet @galtzo][followme])][twitter]                                                                                        |
 
 ## Installation
 
@@ -91,7 +91,7 @@ describe "my stubbed test" do
 end
 ```
 
-## Upgrading
+## Switcch to `main` branch
 
 We recently migrated from `master` to `main` as the default branch.  If this affected your local checkout:
 ```shell
@@ -107,9 +107,15 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
+## Authors
+
+* [Liam Bennet](https://github.com/ljkbennett) of LittleOwlLabs was the original author.
+* [Peter H. Boling][peterboling] of [Rails Bling][railsbling] is has been maintaining since 2018.
+
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/pboling/rspec-stubbed_env.
+See [CONTRIBUTING.md][contributing].
+[contributing]: https://gitlab.com/pboling/rspec-stubbed_env/-/blob/main/CONTRIBUTING.md
 
 ## Code of Conduct
 
@@ -127,11 +133,13 @@ only be introduced with new major versions.
 As a result of this policy, you can (and should) specify a
 dependency on this gem using the [Pessimistic Version Constraint][pvc] with two digits of precision.
 
-For example:
+For example in a `Gemfile`:
 
-```ruby
-spec.add_dependency("rspec-stubbed_env", "~> 2.0")
-```
+    gem 'rspec-stubbed_env', '~> 1.0', group: [:development, :test]
+
+or in a `gemspec`
+
+    spec.add_development_dependency 'rspec-stubbed_env', '~> 1.0'
 
 ## License
 
@@ -140,11 +148,18 @@ spec.add_dependency("rspec-stubbed_env", "~> 2.0")
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-[license]: LICENSE
-[semver]: http://semver.org/
+[aboutme]: https://about.me/peter.boling
+[angellist]: https://angel.co/peter-boling
+[blogpage]: http://www.railsbling.com/tags/rspec-stubbed_env/
+[depfu]: https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884
+[depfu-img]: https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg
+[devto]: https://dev.to/galtzo
+[documentation]: http://rdoc.info/github/pboling/rspec-stubbed_env/frames
+[followme]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow
+[homepage]: https://github.com/pboling/rspec-stubbed_env/
+[license]: LICENSE.txt
+[peterboling]: http://www.peterboling.com
 [pvc]: http://guides.rubygems.org/patterns/#pessimistic-version-constraint
 [railsbling]: http://www.railsbling.com
-[peterboling]: http://www.peterboling.com
-[documentation]: http://rdoc.info/github/pboling/rspec-stubbed_env/frames
-[homepage]: https://github.com/pboling/rspec-stubbed_env/
-[blogpage]: http://www.railsbling.com/tags/rspec-stubbed_env/
+[semver]: http://semver.org/
+[twitter]: http://twitter.com/galtzo

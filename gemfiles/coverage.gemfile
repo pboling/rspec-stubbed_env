@@ -6,5 +6,6 @@ source "https://rubygems.org"
 
 eval_gemfile "./contexts/core.gemfile"
 eval_gemfile "./contexts/coverage.gemfile"
+eval_gemfile "./contexts/testing.gemfile"
 
 gemspec :path => "../"

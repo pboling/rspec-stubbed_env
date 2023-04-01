@@ -26,6 +26,10 @@ inherit_from:
   - rubocop/strict_rspec.yml
   - rubocop/strict_ruby.yml
 
+AllCops:
+  DisplayCopNames: true # Display the name of the failing cops
+  TargetRubyVersion: 2.0
+
 # Metrics cops are disabled in Standard by default)
 Metrics:
   Enabled: true

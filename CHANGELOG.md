@@ -10,12 +10,16 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ### Fixed
 ### Removed
 
-## [2.0.0] - 2023-04-01
+## [1.0.1] - 2023-04-01
 ### Added
 - support for values_at
 - support for symbol keys
+- Structured gemfiles
+- Rubocop with standard, gradual, & more
 ### Changed
 - Required ruby version in gemspec >= 1.8.7
+  - not bumping major version, because this was already the de-facto minimum
+- TravisCI => GitHub Actions
 
 ## [1.0.0] - 2018-10-06
 ### Added

@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/lsegal/yard
+  revision: b51bf260adf6d4ed80c5d25ba5e027375ffbd495
+  specs:
+    yard (0.9.28)
+
+GIT
   remote: https://github.com/pboling/simplecov-rcov
   revision: 7a54f35d04e2bdb1052be698f00d6c7cc35ea529
   branch: patch-1
@@ -9,7 +15,7 @@ GIT
 PATH
   remote: .
   specs:
-    rspec-stubbed_env (2.0.0)
+    rspec-stubbed_env (1.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -27,21 +33,6 @@ GEM
     rake (13.0.6)
     regexp_parser (2.7.0)
     rexml (3.2.5)
-    rspec (3.12.0)
-      rspec-core (~> 3.12.0)
-      rspec-expectations (~> 3.12.0)
-      rspec-mocks (~> 3.12.0)
-    rspec-block_is_expected (1.0.4)
-      rspec-core
-    rspec-core (3.12.1)
-      rspec-support (~> 3.12.0)
-    rspec-expectations (3.12.2)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.12.0)
-    rspec-mocks (3.12.5)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.12.0)
-    rspec-support (3.12.0)
     rubocop (1.48.1)
       json (~> 2.3)
       parallel (~> 1.10)
@@ -107,8 +98,6 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 13.0)
-  rspec (~> 3.8)
-  rspec-block_is_expected (~> 1.0)
   rspec-stubbed_env!
   rubocop-gradual (~> 0.3)
   rubocop-lts (~> 18.0)
@@ -125,6 +114,7 @@ DEPENDENCIES
   simplecov-lcov (~> 0.8)
   simplecov-rcov!
   standard (~> 1.25)
+  yard!
 
 BUNDLED WITH
    2.4.10

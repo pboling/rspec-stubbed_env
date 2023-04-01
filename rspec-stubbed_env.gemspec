@@ -39,6 +39,7 @@ stub_env(
     # Files (alphabetical)
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
     "LICENSE.txt",
     "README.md"
   ]

@@ -1,5 +1,6 @@
 /.bundle/
 /.yardoc
+/*.gem
 /_yardoc/
 /coverage/
 /doc/
@@ -10,9 +11,10 @@
 # rspec failure tracking
 .rspec_status
 
+# gemfile locks for CI
+/gemfiles/*.gemfile.lock
+
 .byebug_history
 
 # iCloud Drive
 .nosync
-
-*.gem
