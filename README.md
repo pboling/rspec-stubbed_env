@@ -160,6 +160,7 @@ or in a `gemspec`
 [blogpage]: http://www.railsbling.com/tags/rspec-stubbed_env/
 [cc-cov]: https://codeclimate.com/github/pboling/rspec-stubbed_env/test_coverage
 [cc-covi]: https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/test_coverage
+[contributing]: CONTRIBUTING.md
 [depfu]: https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884
 [depfu-img]: https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg
 [devto]: https://dev.to/galtzo
