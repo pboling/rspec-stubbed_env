@@ -12,14 +12,18 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 
 ## [1.0.1] - 2023-04-01
 ### Added
-- support for values_at
-- support for symbol keys
+- support for values_at (@darhazer)
+- support for symbol keys (@hosamaly)
 - Structured gemfiles
 - Rubocop with standard, gradual, & more
 ### Changed
 - Required ruby version in gemspec >= 1.8.7
   - not bumping major version, because this was already the de-facto minimum
 - TravisCI => GitHub Actions
+- CODE_OF_CONDUCT.md upgraded to v2.0
+- Moved from master to main default branch
+### Fixed
+- README Badges (CI status)
 
 ## [1.0.0] - 2018-10-06
 ### Added
