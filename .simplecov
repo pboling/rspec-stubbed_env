@@ -17,7 +17,7 @@ SimpleCov.start do
   # Fortunately defaults work well.
 
   # Setup Coverage Dir
-  coverage_dir "results/coverage"
+  coverage_dir "coverage"
 
   if RUN_MULTIPLE_FORMATTERS
     require "simplecov-cobertura"

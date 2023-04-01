@@ -35,4 +35,4 @@ jobs:
           bundler: ${{ matrix.bundler }}
           bundler-cache: true
       - name: Run RuboCop
-        run: bundle exec rubocop_gradual -DESP
+        run: bundle exec rake rubocop_gradual

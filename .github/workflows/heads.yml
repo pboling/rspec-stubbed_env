@@ -33,10 +33,6 @@ jobs:
         experimental: [false]
         gemfile:
           - vanilla
-        rubygems:
-          - latest
-        bundler:
-          - latest
         ruby:
           - "ruby-head"
           - "jruby-head"

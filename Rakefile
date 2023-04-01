@@ -2,10 +2,11 @@
 
 require "bundler/gem_tasks"
 require "rspec/core/rake_task"
+require "rubocop/gradual/rake_task"
 
 RSpec::Core::RakeTask.new(:spec)
-
-require "rubocop/gradual/rake_task"
+desc "Alias test to spec"
+task :test => :spec
 
 RuboCop::Gradual::RakeTask.new
 
