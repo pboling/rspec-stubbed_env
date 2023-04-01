@@ -4,108 +4,162 @@ require 'spec_helper'
 
 RSpec.describe RSpec::StubbedEnv::TestHelpers do
   describe 'stub_env' do
-    context 'control without stubbing' do
-      subject { FooByEnv.new }
+    context 'when no stubbing' do
+      subject(:myenv) { FooByEnv.new }
+
       it 'is test env' do
-        expect(subject.env).to eq('test')
+        expect(myenv.env).to eq('test')
       end
+
       it 'has 2 localhost settings' do
-        expect(subject.array.grep(/localhost:\d{3}\Z/).length).to eq(2)
+        expect(myenv.array.grep(/localhost:\d{3}\Z/).length).to eq(2)
       end
+
       it 'has size 2' do
-        expect(subject.size).to eq(2)
+        expect(myenv.size).to eq(2)
       end
     end
-    context 'hash signature' do
-      context 'development environment' do
-        include_context 'with stubbed env'
-        let(:environment) { 'development' }
-        before do
-          stub_env(
-            'MEDIUM_1' => 'datastore-01.example.org',
-            'MEDIUM_2' => 'datastore-02.example.org',
-            'IRRELEVANT_3' => 'datastore-03.example.org'
-          )
-          allow(Rails).to receive(:env).and_return(environment)
-        end
-        subject { FooByEnv.new }
-        it 'is development env' do
-          expect(subject.env).to eq(environment)
-        end
-        it 'has 2 example.org settings' do
-          expect(subject.array.grep(/datastore-\d{2}\.example\.org\Z/).length).to eq(2)
-        end
-        it 'has size 2' do
-          expect(subject.size).to eq(2)
-        end
+
+    context 'when hash signature with development environment' do
+      subject(:myenv) { FooByEnv.new }
+
+      include_context 'with stubbed env'
+
+      let(:environment) { 'development' }
+
+      before do
+        stub_env(
+          'MEDIUM_1' => 'datastore-01.example.org',
+          'MEDIUM_2' => 'datastore-02.example.org',
+          'IRRELEVANT_3' => 'datastore-03.example.org'
+        )
+        allow(Rails).to receive(:env).and_return(environment)
       end
-      context 'production environment' do
-        include_context 'with stubbed env'
-        let(:environment) { 'production' }
-        before do
-          stub_env(
-            'BIG_1' => 'datastore-01.example.org',
-            'BIG_2' => 'datastore-02.example.org',
-            'BIG_3' => 'datastore-03.example.org',
-            'BIG_4' => 'datastore-04.example.org',
-            'IRRELEVANT_5' => 'datastore-03.example.org'
-          )
-          allow(Rails).to receive(:env).and_return(environment)
-        end
-        subject { FooByEnv.new }
-        it 'is production env' do
-          expect(subject.env).to eq(environment)
-        end
-        it 'has 4 example.org settings' do
-          expect(subject.array.grep(/datastore-\d{2}\.example\.org\Z/).length).to eq(4)
-        end
-        it 'has size 4' do
-          expect(subject.size).to eq(4)
-        end
+
+      it 'is development env' do
+        expect(myenv.env).to eq(environment)
+      end
+
+      it 'has 2 example.org settings' do
+        expect(myenv.array.grep(/datastore-\d{2}\.example\.org\Z/).length).to eq(2)
+      end
+
+      it 'has size 2' do
+        expect(myenv.size).to eq(2)
       end
     end
-    context 'key, value signature' do
-      context 'development environment' do
-        include_context 'with stubbed env'
-        let(:environment) { 'development' }
-        before do
-          stub_env('MEDIUM_1', 'datastore-01.example.org')
-          stub_env('MEDIUM_2', 'datastore-02.example.org')
-          stub_env('IRRELEVANT_3', 'datastore-03.example.org')
-          allow(Rails).to receive(:env).and_return(environment)
-        end
-        subject { FooByEnv.new }
-        it 'is development env' do
-          expect(subject.env).to eq(environment)
-        end
-        it 'has 2 example.org settings' do
-          expect(subject.array.grep(/datastore-\d{2}\.example\.org\Z/).length).to eq(2)
-        end
-        it 'has size 2' do
-          expect(subject.size).to eq(2)
-        end
+
+    context 'when hash signature with production environment' do
+      subject(:myenv) { FooByEnv.new }
+
+      include_context 'with stubbed env'
+
+      let(:environment) { 'production' }
+
+      before do
+        stub_env(
+          'BIG_1' => 'datastore-01.example.org',
+          'BIG_2' => 'datastore-02.example.org',
+          'BIG_3' => 'datastore-03.example.org',
+          'BIG_4' => 'datastore-04.example.org',
+          'IRRELEVANT_5' => 'datastore-03.example.org'
+        )
+        allow(Rails).to receive(:env).and_return(environment)
       end
-      context 'production environment' do
-        include_context 'with stubbed env'
-        let(:environment) { 'production' }
-        before do
-          stub_env('BIG_1', 'datastore-01.example.org')
-          stub_env('BIG_2', 'datastore-02.example.org')
-          stub_env('BIG_3', 'datastore-03.example.org')
-          stub_env('BIG_4', 'datastore-04.example.org')
-          stub_env('IRRELEVANT_5', 'datastore-05.example.org')
-          allow(Rails).to receive(:env).and_return(environment)
-        end
-        subject { FooByEnv.new }
-        it 'is production env' do
-          expect(subject.env).to eq(environment)
-        end
-        it 'has 4 example.org settings' do
-          expect(subject.array.grep(/datastore-\d{2}\.example\.org\Z/).length).to eq(4)
-        end
-        it 'has size 4' do
-          expect(subject.size).to eq(4)
-        end
+
+      it 'is production env' do
+        expect(myenv.env).to eq(environment)
+      end
+
+      it 'has 4 example.org settings' do
+        expect(myenv.array.grep(/datastore-\d{2}\.example\.org\Z/).length).to eq(4)
+      end
+
+      it 'has size 4' do
+        expect(myenv.size).to eq(4)
+      end
+    end
+
+    context 'when key/value signature with development environment' do
+      subject(:myenv) { FooByEnv.new }
+
+      include_context 'with stubbed env'
+
+      let(:environment) { 'development' }
+
+      before do
+        stub_env('MEDIUM_1', 'datastore-01.example.org')
+        stub_env('MEDIUM_2', 'datastore-02.example.org')
+        stub_env('IRRELEVANT_3', 'datastore-03.example.org')
+        allow(Rails).to receive(:env).and_return(environment)
+      end
+
+      it 'is development env' do
+        expect(myenv.env).to eq(environment)
+      end
+
+      it 'has 2 example.org settings' do
+        expect(myenv.array.grep(/datastore-\d{2}\.example\.org\Z/).length).to eq(2)
+      end
+
+      it 'has size 2' do
+        expect(myenv.size).to eq(2)
+      end
+    end
+
+    context 'when key/value signature with production environment' do
+      subject(:myenv) { FooByEnv.new }
+
+      include_context 'with stubbed env'
+
+      let(:environment) { 'production' }
+
+      before do
+        stub_env('BIG_1', 'datastore-01.example.org')
+        stub_env('BIG_2', 'datastore-02.example.org')
+        stub_env('BIG_3', 'datastore-03.example.org')
+        stub_env('BIG_4', 'datastore-04.example.org')
+        stub_env('IRRELEVANT_5', 'datastore-05.example.org')
+        allow(Rails).to receive(:env).and_return(environment)
+      end
+
+      it 'is production env' do
+        expect(myenv.env).to eq(environment)
+      end
+
+      it 'has 4 example.org settings' do
+        expect(myenv.array.grep(/datastore-\d{2}\.example\.org\Z/).length).to eq(4)
+      end
+
+      it 'has size 4' do
+        expect(myenv.size).to eq(4)
+      end
+    end
+  end
+
+  describe '#values_at' do
+    include_context 'with stubbed env'
+
+    before do
+      ENV['TO_BE_STUBBED'] = 'to_be_stubbed'
+      ENV['NOT_STUBBED'] = 'not_stubbed'
+    end
+
+    after do
+      ENV.delete('TO_BE_STUBBED')
+      ENV.delete('NOT_STUBBED')
+    end
+
+    context 'when not stubbed' do
+      it 'returns original' do
+        expect(ENV.values_at('TO_BE_STUBBED', 'NOT_STUBBED')).to contain_exactly('to_be_stubbed', 'not_stubbed')
+      end
+    end
+
+    context 'when stubbed' do
+      it 'returns stubbed values if stubbed' do
+        stub_env('TO_BE_STUBBED', 'horsehair')
+        expect(ENV.values_at('TO_BE_STUBBED', 'NOT_STUBBED')).to contain_exactly('horsehair', 'not_stubbed')
       end
     end
   end

@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     rspec-stubbed_env (1.0.0)
-      rspec (>= 2.14, < 4)
 
 GEM
   remote: https://rubygems.org/
@@ -44,6 +43,8 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.28.0)
       parser (>= 3.2.1.0)
+    rubocop-capybara (2.17.1)
+      rubocop (~> 1.41)
     rubocop-gradual (0.3.1)
       diff-lcs (>= 1.2.0, < 2.0)
       diffy (~> 3.0)
@@ -61,8 +62,9 @@ GEM
       rubocop-ast (>= 0.4.0)
     rubocop-rake (0.6.0)
       rubocop (~> 1.0)
-    rubocop-rspec (1.42.0)
-      rubocop (>= 0.87.0)
+    rubocop-rspec (2.19.0)
+      rubocop (~> 1.33)
+      rubocop-capybara (~> 2.17)
     rubocop-ruby2_7 (1.1.3)
       rubocop (~> 1.48.1)
     rubocop-thread_safety (0.5.1)
@@ -81,6 +83,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 13.0)
+  rspec (~> 3.8)
   rspec-stubbed_env!
   rubocop-gradual
   rubocop-lts (~> 18.0)

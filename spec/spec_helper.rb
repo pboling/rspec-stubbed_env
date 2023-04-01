@@ -5,8 +5,6 @@ require 'support/foo_by_env'
 
 require 'simplecov'
 
-SimpleCov.start
-
 require 'rspec/stubbed_env'
 
 RSpec.configure do |config|

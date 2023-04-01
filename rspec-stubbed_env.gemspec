@@ -41,9 +41,8 @@ stub_env(
   spec.bindir        = 'exe'
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'rspec', ['>= 2.14', '< 4']
-
   spec.add_development_dependency 'rake', '~> 13.0'
+  spec.add_development_dependency 'rspec', '~> 3.8'
   spec.add_development_dependency 'rubocop-packaging', '~> 0.5'
   spec.add_development_dependency 'simplecov', '~> 0.22'
 end

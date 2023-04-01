@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Class to help with testing
 class FooByEnv
   attr_reader :array, :size, :env
 
