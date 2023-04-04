@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ## [Unreleased]
 ### Added
 - Security policy (SECURITY.md)
+- Random ordering of test suite
 ### Changed
 ### Fixed
 ### Removed
