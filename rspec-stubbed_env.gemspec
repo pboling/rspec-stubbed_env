@@ -41,7 +41,8 @@ stub_env(
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
     "LICENSE.txt",
-    "README.md"
+    "README.md",
+    "SECURITY.md"
   ]
   spec.bindir = "exe"
   spec.require_paths = ["lib"]
