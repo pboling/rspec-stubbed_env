@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-require "rspec/stubbed_env/version"
-
 # This Gem
+require "rspec/stubbed_env/version"
 require "rspec/stubbed_env/test_helpers"
 require "rspec/stubbed_env/config"
 
