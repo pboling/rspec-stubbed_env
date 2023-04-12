@@ -5,11 +5,14 @@ source "https://rubygems.org"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 git_source(:gitlab) { |repo_name| "https://gitlab.com/#{repo_name}" }
 
-# Specify your gem's dependencies in rspec-stubbed_env.gemspec
+# Include dependencies from <gem name>.gemspec
 gemspec
 
+#noinspection RbsMissingTypeSignature
 RUBY_VER = Gem::Version.new(RUBY_VERSION)
+#noinspection RbsMissingTypeSignature
 IS_CI = !ENV["CI"].nil?
+#noinspection RbsMissingTypeSignature
 LOCAL_SUPPORTED = !IS_CI && Gem::Version.new("2.7") <= RUBY_VER && RUBY_ENGINE == "ruby"
 
 if LOCAL_SUPPORTED
