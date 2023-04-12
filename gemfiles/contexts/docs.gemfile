@@ -1,4 +1,3 @@
 # frozen_string_literal: true
 
-# released yard 0.9.28 depends on outdated webrick, but unreleased has removed the dependency
-gem "yard", :github => "lsegal/yard"
+gem "yard", ["~> 0.9", ">= 0.9.34"]

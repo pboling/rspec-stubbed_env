@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/lsegal/yard
-  revision: b51bf260adf6d4ed80c5d25ba5e027375ffbd495
-  specs:
-    yard (0.9.28)
-
-GIT
   remote: https://github.com/pboling/simplecov-rcov
   revision: 7a54f35d04e2bdb1052be698f00d6c7cc35ea529
   branch: patch-1
@@ -37,8 +31,7 @@ GEM
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
       rspec-mocks (~> 3.12.0)
-    rspec-block_is_expected (1.0.4)
-      rspec-core
+    rspec-block_is_expected (1.0.5)
     rspec-core (3.12.1)
       rspec-support (~> 3.12.0)
     rspec-expectations (3.12.2)
@@ -102,11 +95,12 @@ GEM
       simplecov
     simplecov-lcov (0.8.0)
     simplecov_json_formatter (0.1.4)
-    standard (1.25.5)
+    standard (1.26.0)
       language_server-protocol (~> 3.17.0.2)
       rubocop (~> 1.48.1)
       rubocop-performance (~> 1.16.0)
     unicode-display_width (2.4.2)
+    yard (0.9.34)
 
 PLATFORMS
   arm64-darwin-22
@@ -131,7 +125,7 @@ DEPENDENCIES
   simplecov-lcov (~> 0.8)
   simplecov-rcov!
   standard (~> 1.25)
-  yard!
+  yard (~> 0.9, >= 0.9.34)
 
 BUNDLED WITH
    2.4.10
