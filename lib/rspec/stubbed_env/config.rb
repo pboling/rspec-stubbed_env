@@ -15,7 +15,19 @@
 #   end
 # end
 #
+# Alternative usage:
+#
+# describe 'another stubbed test' do
+#   include_context 'with stubbed env', 'FOO' => 'is_bar'
+#   it 'also does a thing' do
+#     expect(ENV['FOO']).to eq('is bar')
+#   end
+# end
 
-RSpec.shared_context("with stubbed env") do
+RSpec.shared_context("with stubbed env") do |args|
   include RSpec::StubbedEnv::TestHelpers
+
+  if args.is_a?(Hash) && args.any?
+    before { stub_env(args) }
+  end
 end
