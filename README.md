@@ -98,6 +98,25 @@ describe "my stubbed test" do
 end
 ```
 
+ENV can be stubbed trough the `stub_env` method, or key/value pairs to be stubbed can be provided directly to the `include_context` call:
+
+```ruby
+describe "my stubbed test" do
+  include_context "with stubbed env", "FOO" => "is bar"
+
+  it "has a value" do
+    expect(ENV.fetch("FOO", nil)).to(eq("is bar"))
+  end
+end
+```
+
+If you want to make `stub_env` method available globally (without the `include_context` call), you can add in the `spec_helper`:
+```ruby
+RSpec.configure do |config|
+  config.include(RSpec::StubbedEnv::TestHelpers)
+end
+```
+
 ## Switcch to `main` branch
 
 We recently migrated from `master` to `main` as the default branch.  If this affected your local checkout:
@@ -121,7 +140,7 @@ See [CONTRIBUTING.md][contributing].
 ## Authors
 
 * [Liam Bennet](https://github.com/ljkbennett) of LittleOwlLabs was the original author.
-* [Peter H. Boling][peterboling] of [Rails Bling][railsbling] is has been maintaining since 2018.
+* [Peter H. Boling][peterboling] of [Rails Bling][railsbling] has been maintaining since 2018.
 
 ## Contributing
 
