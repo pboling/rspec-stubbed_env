@@ -177,4 +177,14 @@ RSpec.describe(RSpec::StubbedEnv::TestHelpers) do
       block_is_expected.to(change { ENV["STAR"] }.from(nil).to("ships"))
     end
   end
+
+  describe "stubbing trough context arguments" do
+    include_context "with stubbed env", "STAR" => "ships", "META" => true
+
+    it "stubs all keys provided in the arguments" do
+      {"STAR" => "ships", "META" => true}.each do |key, value|
+        expect(ENV[key]).to(eq(value))
+      end
+    end
+  end
 end

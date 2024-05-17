@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ### Added
 - Security policy (SECURITY.md)
 - Random ordering of test suite
+- Allow providing the env key/value pairs to be stubbed to `include_context` (@darhazer)
+
 ### Changed
 ### Fixed
 ### Removed
@@ -33,3 +35,7 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ### Added
 - negated matchers
 - rubocop config
+
+<!-- Contributors (alphabetically) -->
+[@darhazer]: https://github.com/darhazer
+[@hosamaly]: https://github.com/hosamaly
