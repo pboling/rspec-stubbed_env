@@ -2,7 +2,8 @@
 
 # This Gem
 require "rspec/stubbed_env/version"
-require "rspec/stubbed_env/test_helpers"
+require "rspec/stubbed_env/hide_helpers"
+require "rspec/stubbed_env/stub_helpers"
 require "rspec/stubbed_env/config"
 
 #
@@ -18,6 +19,15 @@ require "rspec/stubbed_env/config"
 #   end
 # end
 #
+# describe 'my hidden test' do
+#   include_context 'with hidden env'
+#   before do
+#     hide_env('FOO')
+#   end
+#   it 'does a thing' do
+#     expect(ENV['FOO']).to be_nil
+#   end
+# end
 module RSpec
   # Gem Namespace
   module StubbedEnv

@@ -1,38 +1,12 @@
-# We want Exclude directives from different
-# config files to get merged, not overwritten
-inherit_mode:
-  merge:
-    - Exclude
-
-require:
-  # Standard's config uses custom cops,
-  # so it must be loaded here
-  - standard
-  - rubocop/gradual/patch
-  - rubocop-md
-  - rubocop-packaging
-  - rubocop-performance
-  - rubocop-rake
-  - rubocop-rspec
-  - rubocop-thread_safety
-
 inherit_gem:
   rubocop-lts: rubocop-lts.yml
-  rubocop-shopify: rubocop.yml
-  rspec-block_is_expected: rubocop.yml
-  standard: config/ruby-1.8.yml
 
-inherit_from:
-  - rubocop/strict_rspec.yml
-  - rubocop/strict_ruby.yml
-
-AllCops:
-  DisplayCopNames: true # Display the name of the failing cops
-  TargetRubyVersion: 2.0
-
-# Metrics cops are disabled in Standard by default)
+# Metrics cops are disabled in Standard by default
 Metrics:
   Enabled: true
 
 Layout/LineLength:
   Max: 120
+
+RSpec/NestedGroups:
+  Enabled: false

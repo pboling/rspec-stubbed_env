@@ -2,7 +2,7 @@
 
 require "spec_helper"
 
-RSpec.describe(RSpec::StubbedEnv::TestHelpers) do
+RSpec.describe(RSpec::StubbedEnv::StubHelpers) do
   describe "stub_env" do
     context "when no stubbing" do
       subject(:myenv) { FooByEnv.new }

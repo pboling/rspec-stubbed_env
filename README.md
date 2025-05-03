@@ -1,33 +1,51 @@
 # RSpec::StubbedEnv
 
 ENV stubbing via a shared context for more powerful tests.  Now you don't need to add dotenv just for your spec suite.
+ENV hiding via `hide_env("FOO")` was added in v1.0.2.
 
 ```ruby
 describe "my stubbed test" do
   include_context "with stubbed env"
-  before do
-    stub_env("FOO" => "is bar")
+  include_context "with hidden env"
+  context "with FOO=is bar" do
+    before do
+      stub_env("FOO" => "is bar")
+    end
+    it "has a value" do
+      expect(ENV.fetch("FOO", nil)).to(eq("is bar"))
+      expect(ENV.fetch("FOO")).to(eq("is bar"))
+      expect(ENV["FOO"]).to(eq("is bar"))
+    end
   end
-  it "has a value" do
-    expect(ENV.fetch("FOO", nil)).to(eq("is bar"))
+  context "without BAR set" do
+    before do
+      hide_env("BAR")
+    end
+    it "is nil" do
+      expect(ENV.fetch("BAR", nil)).to(be_nil)
+      expect(ENV["BAR"]).to(be_nil)
+    end
+    it "raises error" do
+      expect { ENV.fetch("BAR") }.to(raise_error(KeyNotFound))
+    end
   end
 end
 ```
 
-| Project                | RSpec::StubbedEnv                                                                                                                                                                    |
-|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| gem name               | [rspec-stubbed_env](https://rubygems.org/gems/rspec-stubbed_env)                                                                                                                     |
-| license                | [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)                                                                           |
-| download rank          | [![Downloads Today](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://github.com/pboling/rspec-stubbed_env)                                                              |
-| version                | [![Version](https://img.shields.io/gem/v/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env)                                                                        |
-| dependencies           | [![Depfu][depfu-img]][depfu]                                                                                                                                                         |
-| continuous integration | [![Current][🚎cwfi]][🚎cwf] [![Heads][🖐hwfi]][🖐hwf] [![Style][🧮swfi]][🧮swf]                                                                                                      |
-| test coverage          | [![Test Coverage][cc-covi]][cc-cov]                                                                                                                                                  |
-| maintainability        | [![Maintainability](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/maintainability)](https://codeclimate.com/github/pboling/rspec-stubbed_env/maintainability)           |
-| code triage            | [![Open Source Helpers](https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg)](https://www.codetriage.com/pboling/rspec-stubbed_env)                                |
-| homepage               | [on Github.com][homepage], [on Railsbling.com][blogpage]                                                                                                                             |
-| documentation          | [on RDoc.info][documentation]                                                                                                                                                        |
-| Spread ~♡ⓛⓞⓥⓔ♡~        | [![Liberapay Goal Progress][⛳liberapay-img]][⛳liberapay], [🧊][🧊berg], [🛖][🛖hut], [🧪][🧪lab], [🌏][aboutme], [👼][angellist], [⚗️][devto], [![Tweet @galtzo][followme]][twitter] |
+| Project                | RSpec::StubbedEnv                                                                                                                                                                                  |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| gem name               | [rspec-stubbed_env](https://rubygems.org/gems/rspec-stubbed_env)                                                                                                                                   |
+| license                | [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)                                                                                         |
+| download rank          | [![Downloads Today](https://img.shields.io/gem/rd/rspec-stubbed_env.svg)](https://github.com/pboling/rspec-stubbed_env)                                                                            |
+| version                | [![Version](https://img.shields.io/gem/v/rspec-stubbed_env.svg)](https://rubygems.org/gems/rspec-stubbed_env)                                                                                      |
+| dependencies           | [![Depfu][depfu-img]][depfu]                                                                                                                                                                       |
+| continuous integration | [![Current][🚎cwfi]][🚎cwf] [![Heads][🖐hwfi]][🖐hwf] [![Style][🧮swfi]][🧮swf]                                                                                                                    |
+| test coverage          | [![Test Coverage][cc-covi]][cc-cov]                                                                                                                                                                |
+| maintainability        | [![Maintainability](https://api.codeclimate.com/v1/badges/07a1d53634c61154efae/maintainability)](https://codeclimate.com/github/pboling/rspec-stubbed_env/maintainability)                         |
+| code triage            | [![Open Source Helpers](https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg)](https://www.codetriage.com/pboling/rspec-stubbed_env)                                              |
+| homepage               | [on Github.com][homepage], [on Railsbling.com][blogpage]                                                                                                                                           |
+| documentation          | [on RDoc.info][documentation]                                                                                                                                                                      |
+| Spread ~♡ⓛⓞⓥⓔ♡~        | [![Liberapay Goal Progress][⛳liberapay-img]][⛳liberapay], [🧊][💖🧊berg], [🐙][💖🐙hub],  [🛖][💖🛖hut], [🧪][💖🧪lab], [🌏][aboutme], [👼][angellist], [⚗️][devto], [![Tweet @galtzo][followme]][twitter] |
 
 [🚎cwf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/current.yml
 [🚎cwfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/current.yml/badge.svg
@@ -111,9 +129,10 @@ end
 ```
 
 If you want to make `stub_env` method available globally (without the `include_context` call), you can add in the `spec_helper`:
+
 ```ruby
 RSpec.configure do |config|
-  config.include(RSpec::StubbedEnv::TestHelpers)
+  config.include(RSpec::StubbedEnv::StubHelpers)
 end
 ```
 

@@ -27,16 +27,16 @@
 module RSpec
   module StubbedEnv
     # Helpers to unobtrusively stub ENV
-    module TestHelpers
+    module StubHelpers
       # Can be called with all key value pairs to be stubbed as a hash:
       #
-      #     stub_env('A' => 'B', 'C' => 'D', 'E' => 'F')
+      #     stub_env('A' => 'B', 'C' => 'D', 'E' => 'F') # Preferred
       #
       # Alternatively can be called one per ENV key-value pair to stub:
       #
-      #     stub_env('A', 'B')
-      #     stub_env('C', 'D')
-      #     stub_env('E', 'F')
+      #     stub_env('A', 'B') # NOT
+      #     stub_env('C', 'D') # AS
+      #     stub_env('E', 'F') # GOOD (Creates redundant stubs on values_at)
       def stub_env(key_or_hash, value = nil)
         init_stub unless env_stubbed?
         if key_or_hash.is_a?(Hash)
