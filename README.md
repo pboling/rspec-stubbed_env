@@ -216,8 +216,9 @@ or in a `gemspec`
 [railsbling]: http://www.railsbling.com
 [semver]: http://semver.org/
 [twitter]: http://twitter.com/galtzo
-[🧊berg]: https://codeberg.org/pboling
-[🛖hut]: https://sr.ht/~galtzo/
-[🧪lab]: https://gitlab.com/pboling
+[💖🧊berg]: https://codeberg.org/pboling
+[💖🛖hut]: https://sr.ht/~galtzo/
+[💖🐙hub]: https://github.com/pboling
+[💖🧪lab]: https://gitlab.com/pboling
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [⛳liberapay-img]: https://img.shields.io/liberapay/goal/pboling.svg?logo=liberapay
