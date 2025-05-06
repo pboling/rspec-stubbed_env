@@ -1,21 +1,25 @@
 /.bundle/
 /.yardoc
-/*.gem
 /_yardoc/
 /coverage/
 /doc/
 /pkg/
 /spec/reports/
 /tmp/
-/.idea/
+.byebug_history
 
 # rspec failure tracking
 .rspec_status
 
-# gemfile locks for CI
-/gemfiles/*.gemfile.lock
-
-.byebug_history
+# IDEs
+/.idea/
 
 # iCloud Drive
 .nosync
+
+# Packaging Artifacts
+*.gem
+
+# gemfile locks for CI
+/gemfiles/*.lock
+Appraisal.*.gemfile.lock
