@@ -1,0 +1,14 @@
+lib/rspec/stubbed_env/hide_helpers.rb -- 3 warnings:
+  [60, 63]:DuplicateMethodCall: RSpec::StubbedEnv::HideHelpers#hide_fetch calls 'allow(ENV)' 2 times [https://github.com/troessner/reek/blob/v6.5.0/docs/Duplicate-Method-Call.md]
+  [60, 63]:DuplicateMethodCall: RSpec::StubbedEnv::HideHelpers#hide_fetch calls 'receive(:fetch)' 2 times [https://github.com/troessner/reek/blob/v6.5.0/docs/Duplicate-Method-Call.md]
+  [71]:NestedIterators: RSpec::StubbedEnv::HideHelpers#hide_values_at contains iterators nested 2 deep [https://github.com/troessner/reek/blob/v6.5.0/docs/Nested-Iterators.md]
+lib/rspec/stubbed_env/stub_helpers.rb -- 8 warnings:
+  [53, 60, 64]:DataClump: RSpec::StubbedEnv::StubHelpers takes parameters ['key', 'value'] to 3 methods [https://github.com/troessner/reek/blob/v6.5.0/docs/Data-Clump.md]
+  [65, 66]:DuplicateMethodCall: RSpec::StubbedEnv::StubHelpers#allow_fetch calls 'allow(ENV)' 2 times [https://github.com/troessner/reek/blob/v6.5.0/docs/Duplicate-Method-Call.md]
+  [65, 66]:DuplicateMethodCall: RSpec::StubbedEnv::StubHelpers#allow_fetch calls 'receive(:fetch)' 2 times [https://github.com/troessner/reek/blob/v6.5.0/docs/Duplicate-Method-Call.md]
+  [83, 84, 85]:DuplicateMethodCall: RSpec::StubbedEnv::StubHelpers#init_stub calls 'allow(ENV)' 3 times [https://github.com/troessner/reek/blob/v6.5.0/docs/Duplicate-Method-Call.md]
+  [74]:NestedIterators: RSpec::StubbedEnv::StubHelpers#allow_values_at contains iterators nested 2 deep [https://github.com/troessner/reek/blob/v6.5.0/docs/Nested-Iterators.md]
+  [43]:UncommunicativeVariableName: RSpec::StubbedEnv::StubHelpers#stub_env has the variable name 'k' [https://github.com/troessner/reek/blob/v6.5.0/docs/Uncommunicative-Variable-Name.md]
+  [43]:UncommunicativeVariableName: RSpec::StubbedEnv::StubHelpers#stub_env has the variable name 'v' [https://github.com/troessner/reek/blob/v6.5.0/docs/Uncommunicative-Variable-Name.md]
+  [78]:UtilityFunction: RSpec::StubbedEnv::StubHelpers#env_stubbed? doesn't depend on instance state (maybe move it to another class?) [https://github.com/troessner/reek/blob/v6.5.0/docs/Utility-Function.md]
+11 total warnings
