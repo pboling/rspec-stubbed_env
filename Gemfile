@@ -16,6 +16,7 @@ platform :mri do
   # Debugging - Ensure ENV["DEBUG"] == "true" to use debuggers within spec suite
   # Use binding.break, binding.b, or debugger in code
   gem "debug", ">= 1.0.0"                  # ruby >= 2.7
+  gem "gem_bench", "~> 2.0", ">= 2.0.5"
 
   # Dev Console - Binding.pry - Irb replacement
   gem "pry", "~> 0.14"                     # ruby >= 2.0
