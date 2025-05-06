@@ -11,8 +11,8 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ### Removed
 
 ## [1.0.2] - 2025-05-06 ([tag][1.0.2t])
-- COVERAGE: 100.00% -- 70/70 lines in 4 files
-- BRANCH COVERAGE: 100.00% -- 10/10 branches in 4 files
+- COVERAGE: 100.00% -- 73/73 lines in 5 files
+- BRANCH COVERAGE: 100.00% -- 10/10 branches in 5 files
 - 85.71% documented
 ### Added
 - `hide_env`
