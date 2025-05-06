@@ -1,3 +1,0 @@
-gem "rubocop-lts", "~> 0.0", :require => false # Support Ruby 1.8+
-gem "rubocop-packaging", "~> 0.5", :require => false
-gem "rubocop-rspec", "~> 3", :require => false

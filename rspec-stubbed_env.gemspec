@@ -27,11 +27,10 @@ Gem::Specification.new do |spec|
   end
 
   spec.summary = "Unobtrusively stub ENV keys and values during testing"
-  spec.description = %[Stub environment variables in a scoped context for testing
-stub_env(
-  'AWS_REGION' => 'us-east-1',
-  'REDIS_URL' => 'redis://localhost:6379/'
-)]
+  spec.description = %[Stub or hide environment variables in a scoped context for testing
+stub_env('REDIS_URL' => 'redis://localhost:6379/')
+hide_env('SESSION_SECRET')
+]
   spec.homepage = "https://github.com/pboling/rspec-stubbed_env"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 1.8.7"
@@ -54,8 +53,15 @@ stub_env(
     "CONTRIBUTING.md",
     "LICENSE.txt",
     "README.md",
-    "SECURITY.md"
+    "SECURITY.md",
   ]
   spec.bindir = "exe"
   spec.require_paths = ["lib"]
+
+  # Tests
+  spec.add_development_dependency("rspec", "~> 3.13")                   # ruby >= 0
+  spec.add_development_dependency("rspec-block_is_expected", "~> 1.0")  # ruby >= 1.8.7
+
+  # Development tasks
+  spec.add_development_dependency("rake", "~> 13.0")                    # ruby >= 2.2
 end

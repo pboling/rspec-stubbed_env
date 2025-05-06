@@ -1,4 +1,0 @@
-# frozen_string_literal: true
-
-# Dev
-gem "rake", "~> 13.0"

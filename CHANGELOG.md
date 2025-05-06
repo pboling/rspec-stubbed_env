@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog v1](https://keepachangelog.com/en/1.0.0
 and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- COVERAGE: 100.00% -- 70/70 lines in 4 files
+- BRANCH COVERAGE: 100.00% -- 10/10 branches in 4 files
+- 85.71% documented
 ### Added
 - `hide_env`
   - `include_context "with hidden env", "FOO"`
