@@ -32,6 +32,8 @@ describe "my stubbed test" do
 end
 ```
 
+This gem has no runtime dependencies.
+
 | Project                | RSpec::StubbedEnv                                                                                                                                                                                  |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | gem name               | [rspec-stubbed_env](https://rubygems.org/gems/rspec-stubbed_env)                                                                                                                                   |
@@ -54,22 +56,47 @@ end
 [🧮swf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/style.yml
 [🧮swfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/style.yml/badge.svg
 
-## Installation
+## ✨ Installation
 
-Add this line to your application's Gemfile:
+Install the gem and add to the application's Gemfile by executing:
 
-```ruby
-gem "rspec-stubbed_env", :group => :test
-```
+    $ bundle add rspec-stubbed_env
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+If bundler is not being used to manage dependencies, install the gem by executing:
 
     $ gem install rspec-stubbed_env
 
+### 🔒 Secure Installation
+
+`rspec-stubbed_env` is cryptographically signed, and with verifiable [SHA-256 and SHA-512][💎SHA_checksums] checksums by
+[stone_checksums][💎stone_checksums]. Be sure the gem you install hasn’t been tampered with
+by following the instructions below.
+
+Add my public key (if you haven’t already, expires 2045-04-29) as a trusted certificate:
+
+```shell
+gem cert --add <(curl -Ls https://raw.github.com/oauth-xx/rspec-stubbed_env/main/certs/pboling.pem)
+```
+
+You only need to do that once.  Then proceed to install with:
+
+```shell
+gem install rspec-stubbed_env -P HighSecurity
+```
+
+The `HighSecurity` trust profile will verify signed gems, and not allow the installation of unsigned dependencies.
+
+If you want to up your security game full-time:
+
+```shell
+bundle config set --global trust-policy MediumSecurity
+```
+
+`MediumSecurity` instead of `HighSecurity` is necessary if not all the gems you use are signed.
+
+NOTE: Be prepared to track down certs for signed gems and add them the same way you added mine.
+
+## 🔧 Basic Usage
 
 You must configure RSpec to use the `:expect` syntax, or some compatible alternative.
 
@@ -86,9 +113,7 @@ Require the library in your spec/test helper somewhere:
 require "rspec/stubbed_env"
 ```
 
-## Usage
-
-ENV stubbing:
+### ENV stubbing
 
   - is opt-in, via a shared context, rather than global.
   - *does not* affect the real ENV at all.  It is a true stub.
@@ -136,9 +161,10 @@ RSpec.configure do |config|
 end
 ```
 
-## Switcch to `main` branch
+## 🚚 Switch to `main` branch
 
-We recently migrated from `master` to `main` as the default branch.  If this affected your local checkout:
+We migrated from `master` to `main` as the default branch.  If this affected your local checkout:
+
 ```shell
 git branch -m master main
 git fetch origin
@@ -222,3 +248,6 @@ or in a `gemspec`
 [💖🧪lab]: https://gitlab.com/pboling
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [⛳liberapay-img]: https://img.shields.io/liberapay/goal/pboling.svg?logo=liberapay
+
+[💎stone_checksums]: https://github.com/pboling/stone_checksums
+[💎SHA_checksums]: https://gitlab.com/oauth-xx/version_gem/-/tree/main/checksums
