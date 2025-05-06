@@ -340,7 +340,7 @@ the [Pessimistic Version Constraint][📌pvc] with two digits of precision.
 For example:
 
 ```ruby
-spec.add_dependency("silent_stream", "~> 1.0")
+spec.add_dependency("rspec-stubbed_env", "~> 1.0")
 ```
 
 See [CHANGELOG.md][📌changelog] for list of releases.
@@ -376,10 +376,10 @@ or one of the others at the head of this README.
 
 [✇bundle-group-pattern]: https://gist.github.com/pboling/4564780
 [⛳️gem-namespace]: https://github.com/pboling/rspec-stubbed_env/blob/master/lib/masq.rb
-[⛳️namespace-img]: https://img.shields.io/badge/namespace-SilentStream-brightgreen.svg?style=flat&logo=ruby&logoColor=white
-[⛳️gem-name]: https://rubygems.org/gems/silent_stream
-[⛳️name-img]: https://img.shields.io/badge/name-silent_stream-brightgreen.svg?style=flat&logo=rubygems&logoColor=red
-[🚂bdfl-blog]: http://www.railsbling.com/tags/silent_stream
+[⛳️namespace-img]: https://img.shields.io/badge/namespace-RSpec%3A%3AStubbedEnv-brightgreen.svg?style=flat&logo=ruby&logoColor=white
+[⛳️gem-name]: https://rubygems.org/gems/rspec-stubbed_env
+[⛳️name-img]: https://img.shields.io/badge/name-rspec-stubbed_env-brightgreen.svg?style=flat&logo=rubygems&logoColor=red
+[🚂bdfl-blog]: http://www.railsbling.com/tags/rspec-stubbed_env
 [🚂bdfl-blog-img]: https://img.shields.io/badge/blog-railsbling-0093D0.svg?style=for-the-badge&logo=rubyonrails&logoColor=orange
 [🚂bdfl-contact]: http://www.railsbling.com/contact
 [🚂bdfl-contact-img]: https://img.shields.io/badge/Contact-BDFL-0093D0.svg?style=flat&logo=rubyonrails&logoColor=red
@@ -422,15 +422,15 @@ or one of the others at the head of this README.
 [📜docs-head-rd-img]: https://img.shields.io/badge/RubyDoc-HEAD-943CD2?style=for-the-badge&logo=readthedocs&logoColor=white
 [📜wiki]: https://gitlab.com/pboling/rspec-stubbed_env/-/wikis/home
 [📜wiki-img]: https://img.shields.io/badge/wiki-examples-943CD2.svg?style=for-the-badge&logo=Wiki&logoColor=white
-[👽dl-rank]: https://rubygems.org/gems/silent_stream
-[👽dl-ranki]: https://img.shields.io/gem/rd/silent_stream.svg
+[👽dl-rank]: https://rubygems.org/gems/rspec-stubbed_env
+[👽dl-ranki]: https://img.shields.io/gem/rd/rspec-stubbed_env.svg
 [👽oss-help]: https://www.codetriage.com/pboling/rspec-stubbed_env
 [👽oss-helpi]: https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg
-[👽version]: https://rubygems.org/gems/silent_stream
-[👽versioni]: https://img.shields.io/gem/v/silent_stream.svg
-[🔑cc-mnt]: https://qlty.sh/gh/pboling/projects/silent_stream
+[👽version]: https://rubygems.org/gems/rspec-stubbed_env
+[👽versioni]: https://img.shields.io/gem/v/rspec-stubbed_env.svg
+[🔑cc-mnt]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env
 [🔑cc-mnti♻️]: https://qlty.sh/badges/3884b648-a5a9-4458-9671-a2ce38a1d470/maintainability.svg
-[🔑cc-cov]: https://qlty.sh/gh/pboling/projects/silent_stream
+[🔑cc-cov]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env
 [🔑cc-covi♻️]: https://qlty.sh/badges/3884b648-a5a9-4458-9671-a2ce38a1d470/test_coverage.svg
 [🔑codecov]: https://codecov.io/gh/pboling/rspec-stubbed_env
 [🔑codecovi♻️]: https://codecov.io/gh/pboling/rspec-stubbed_env/branch/master/graph/badge.svg?token=Ad3ets1psE
@@ -518,7 +518,7 @@ or one of the others at the head of this README.
 [📌gitmoji]:https://gitmoji.dev
 [📌gitmoji-img]:https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square
 [🧮kloc]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-[🧮kloc-img]: https://img.shields.io/badge/KLOC-0.137-FFDD67.svg?style=for-the-badge&logo=YouTube&logoColor=blue
+[🧮kloc-img]: https://img.shields.io/badge/KLOC-0.070-FFDD67.svg?style=for-the-badge&logo=YouTube&logoColor=blue
 [🔐security]: SECURITY.md
 [🔐security-img]: https://img.shields.io/badge/security-policy-brightgreen.svg?style=flat
 [📄copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
@@ -527,7 +527,7 @@ or one of the others at the head of this README.
 [📄license-img]: https://img.shields.io/badge/License-MIT-green.svg
 [📄ilo-declaration]: https://www.ilo.org/declaration/lang--en/index.htm
 [📄ilo-declaration-img]: https://img.shields.io/badge/ILO_Fundamental_Principles-✓-brightgreen.svg?style=flat
-[🚎yard-current]: http://rubydoc.info/gems/silent_stream
+[🚎yard-current]: http://rubydoc.info/gems/rspec-stubbed_env
 [🚎yard-head]: https://rubydoc.info/github/pboling/rspec-stubbed_env/master
 [💎stone_checksums]: https://github.com/pboling/stone_checksums
 [💎SHA_checksums]: https://gitlab.com/pboling/rspec-stubbed_env/-/tree/main/checksums

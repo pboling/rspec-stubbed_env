@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
   - Truffleruby 22.3+, including head
 - Added CITATION.cff
 - Upgraded Code of Conduct based on Contributor Covenant v2.1
+- New pattern for loading version.rb in gemspec allows (real) 100% code coverage
 
 ## [1.0.1] - 2023-04-01 ([tag][1.0.1t])
 ### Added
