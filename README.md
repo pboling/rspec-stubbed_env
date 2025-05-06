@@ -130,7 +130,7 @@ end
 ```
 
 Require the library in your spec/test helper somewhere:
-```
+```ruby
 require "rspec/stubbed_env"
 ```
 
@@ -147,6 +147,7 @@ See the spec suite for detailed examples.
 describe "vanilla" do
   it "has no ENV stub" do
     expect(ENV.fetch("FOO", nil)).to(be_nil)
+    expect(ENV["FOO"]).to(be_nil)
   end
 end
 
@@ -158,11 +159,13 @@ describe "my stubbed test" do
   end
   it "has a value" do
     expect(ENV.fetch("FOO", nil)).to(eq("is bar"))
+    expect(ENV["FOO"]).to(eq("is bar"))
   end
 end
 ```
 
-ENV can be stubbed trough the `stub_env` method, or key/value pairs to be stubbed can be provided directly to the `include_context` call:
+ENV can be stubbed trough the `stub_env` method, or key/value pairs to be stubbed can be
+provided directly to the `include_context` call:
 
 ```ruby
 describe "my stubbed test" do
@@ -170,15 +173,81 @@ describe "my stubbed test" do
 
   it "has a value" do
     expect(ENV.fetch("FOO", nil)).to(eq("is bar"))
+    expect(ENV["FOO"]).to(eq("is bar"))
   end
 end
 ```
 
-If you want to make `stub_env` method available globally (without the `include_context` call), you can add in the `spec_helper`:
+If you want to make `stub_env` method available globally (without the `include_context` call),
+you can add in the `spec_helper`.
+
+I do not recommend the _global_ approach, as it results in a loss of clarity
+on which tests are testing ENV-based behaviors.  Here's a foot-gun if you want it.
 
 ```ruby
 RSpec.configure do |config|
   config.include(RSpec::StubbedEnv::StubHelpers)
+  # Or you could include the context globally
+  # config.include_context "with stubbed env"
+end
+```
+
+### ENV hiding
+
+- is opt-in, via a shared context, rather than global.
+- *does not* affect the real ENV at all.  It is a true stub.
+- has the same scope as a `before`, `subject`, or `let` at the same level.
+
+See the spec suite for detailed examples.
+
+```ruby
+# This is normal, without hiding, ENV is set
+ENV["MY_PATH"] = "/home/doodle"
+describe "vanilla" do
+  it "has ENV with nothing hidden" do
+    expect(ENV.fetch("MY_PATH", nil)).to("/home/doodle")
+    expect(ENV["MY_PATH"]).to("/home/doodle")
+  end
+end
+
+# With a hidden ENV variable!
+describe "my hidden test" do
+  include_context "with hidden env"
+  before do
+    hide_env("MY_PATH")
+  end
+  it "MY_PATH is not set" do
+    expect(ENV.fetch("MY_PATH", nil)).to(be_nil)
+    expect(ENV["MY_PATH"]).to(be_nil)
+  end
+end
+```
+
+ENV variables can be hidden trough the `hide_env` method, or variable names to be hidden can be
+provided directly to the `include_context` call:
+
+```ruby
+describe "my hidden test" do
+  include_context "with hidden env", "MY_PATH"
+
+  it "MY_PATH is not set" do
+    expect(ENV.fetch("MY_PATH", nil)).to(be_nil)
+    expect(ENV["MY_PATH"]).to(be_nil)
+  end
+end
+```
+
+If you want to make `hide_env` method available globally (without the `include_context` call),
+you can add in the `spec_helper`:
+
+I do not recommend the _global_ approach, as it results in a loss of clarity
+on which tests are testing ENV-based behaviors.  Here's a foot-gun if you want it.
+
+```ruby
+RSpec.configure do |config|
+  config.include(RSpec::StubbedEnv::HideHelpers)
+  # Or you could include the context globally
+  # config.include_context "with hidden env"
 end
 ```
 
