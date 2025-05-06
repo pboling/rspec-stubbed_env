@@ -4,6 +4,9 @@ require "bundler/gem_tasks"
 
 defaults = []
 
+# See: https://docs.gitlab.com/ci/variables/predefined_variables/
+is_gitlab = ENV.fetch("GITLAB_CI", "false").casecmp("true") == 0
+
 ### DEVELOPMENT TASKS
 # Setup Kettle Soup Cover
 begin
@@ -93,8 +96,7 @@ begin
     t.verbose = false
     t.source_files = "{lib,spec}/**/*.rb"
   end
-  # The condition effectively means don't run reek on GitLab CI
-  defaults << "reek" if !defined?(Kettle::Soup::Cover) || Kettle::Soup::Cover::IS_CI
+  defaults << "reek" unless is_gitlab
 rescue LoadError
   desc("(stub) reek is unavailable")
   task(:reek) do
