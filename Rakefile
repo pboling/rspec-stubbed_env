@@ -93,7 +93,8 @@ begin
     t.verbose = false
     t.source_files = "{lib,spec}/**/*.rb"
   end
-  defaults << "reek"
+  # The condition effectively means don't run reek on GitLab CI
+  defaults << "reek" if !defined?(Kettle::Soup::Cover) || Kettle::Soup::Cover::IS_CI
 rescue LoadError
   desc("(stub) reek is unavailable")
   task(:reek) do
