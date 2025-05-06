@@ -6,9 +6,14 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 
 ## [Unreleased]
 ### Added
+- `hide_env`
+  - `include_context "with hidden env", "FOO"`
+- Allow providing the env key/value pairs to be stubbed to `include_context` (@darhazer)
+  - `include_context "with stubbed env", "FOO" => "is bar"`
 - Security policy (SECURITY.md)
 - Random ordering of test suite
-- Allow providing the env key/value pairs to be stubbed to `include_context` (@darhazer)
+- 20 year signing cert expires 2045-04-29
+- dev container config for development
 
 ### Changed
 ### Fixed
