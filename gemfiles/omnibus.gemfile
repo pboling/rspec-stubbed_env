@@ -15,4 +15,4 @@ eval_gemfile "modular/style.gemfile"
 # On CI, we only need the gemspec dependencies (including development dependencies).
 # Exceptions, if any, will be found in gemfiles/*.gemfile
 
-gemspec path: "../"
+gemspec :path => "../"

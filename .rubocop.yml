@@ -13,6 +13,7 @@ AllCops:
     - "tmp/**/*"
     - "vendor/**/*"
     - ".git/**/*"
+    - "gemfiles/vendor/bundle/**/*"
 
 # Metrics cops are disabled in Standard by default
 Metrics:
