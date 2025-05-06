@@ -375,7 +375,7 @@ or one of the others at the head of this README.
 [![Buy me a latte][🖇buyme-img]][🖇buyme]
 
 [✇bundle-group-pattern]: https://gist.github.com/pboling/4564780
-[⛳️gem-namespace]: https://github.com/pboling/rspec-stubbed_env/blob/master/lib/masq.rb
+[⛳️gem-namespace]: https://github.com/pboling/rspec-stubbed_env
 [⛳️namespace-img]: https://img.shields.io/badge/namespace-RSpec%3A%3AStubbedEnv-brightgreen.svg?style=flat&logo=ruby&logoColor=white
 [⛳️gem-name]: https://rubygems.org/gems/rspec-stubbed_env
 [⛳️name-img]: https://img.shields.io/badge/name-rspec--stubbed__env-brightgreen.svg?style=flat&logo=rubygems&logoColor=red
