@@ -219,7 +219,7 @@ or in a `gemspec`
 ## License
 
 * Copyright © 2014 LittlOwlLabs [Liam Bennet](https://github.com/ljkbennett)
-* Copyright © 2018-2020, 2023 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
+* Copyright © 2018-2020, 2023 - 2025 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
