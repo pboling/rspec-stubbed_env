@@ -378,7 +378,7 @@ or one of the others at the head of this README.
 [⛳️gem-namespace]: https://github.com/pboling/rspec-stubbed_env/blob/master/lib/masq.rb
 [⛳️namespace-img]: https://img.shields.io/badge/namespace-RSpec%3A%3AStubbedEnv-brightgreen.svg?style=flat&logo=ruby&logoColor=white
 [⛳️gem-name]: https://rubygems.org/gems/rspec-stubbed_env
-[⛳️name-img]: https://img.shields.io/badge/name-rspec-stubbed_env-brightgreen.svg?style=flat&logo=rubygems&logoColor=red
+[⛳️name-img]: https://img.shields.io/badge/name-rspec--stubbed__env-brightgreen.svg?style=flat&logo=rubygems&logoColor=red
 [🚂bdfl-blog]: http://www.railsbling.com/tags/rspec-stubbed_env
 [🚂bdfl-blog-img]: https://img.shields.io/badge/blog-railsbling-0093D0.svg?style=for-the-badge&logo=rubyonrails&logoColor=orange
 [🚂bdfl-contact]: http://www.railsbling.com/contact
