@@ -51,7 +51,7 @@ rescue LoadError
 end
 
 desc "run spec task with test task"
-task test: :spec
+task :test => :spec
 
 # Setup RuboCop-LTS
 begin
@@ -114,4 +114,4 @@ rescue LoadError
   end
 end
 
-task default: defaults
+task :default => defaults

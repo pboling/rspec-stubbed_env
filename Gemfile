@@ -46,4 +46,4 @@ eval_gemfile "gemfiles/modular/style.gemfile"
 # Documentation
 eval_gemfile "gemfiles/modular/documentation.gemfile"
 
-gem "appraisal", github: "pboling/appraisal", branch: "galtzo"
+gem "appraisal", :github => "pboling/appraisal", :branch => "galtzo"
