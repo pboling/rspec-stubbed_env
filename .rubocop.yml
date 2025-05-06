@@ -1,19 +1,11 @@
-inherit_mode:
-  merge:
-    - Exclude
-
 inherit_gem:
   rubocop-lts: rubocop-lts.yml
 
 AllCops:
   Exclude:
-    - "test/sigstore-conformance/**/*"
-    - "test/tuf-conformance/**/*"
-    - "node_modules/**/*"
-    - "tmp/**/*"
-    - "vendor/**/*"
-    - ".git/**/*"
-    - "gemfiles/vendor/bundle/**/*"
+    # the cache path in .gitlab-ci.yml is vendor/ruby
+    # and it uses a gemfile in gemfiles/, so it is relative
+    - "gemfiles/vendor/ruby/**/*"
 
 # Metrics cops are disabled in Standard by default
 Metrics:
