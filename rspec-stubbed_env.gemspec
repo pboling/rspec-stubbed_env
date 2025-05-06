@@ -1,10 +1,20 @@
 # frozen_string_literal: true
 
+gem_version =
+  if RUBY_VERSION >= "3.1"
+    # Loading version into an anonymous module allows version.rb to get code coverage from SimpleCov!
+    # See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-2630782358
+    Module.new.tap { |mod| Kernel.load("lib/rspec/stubbed_env/version.rb", mod) }::RSpec::StubbedEnv::VERSION
+  else
+    lib = File.expand_path("lib", __dir__)
+    $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+    require "rspec/stubbed_env/version"
+    RSpec::StubbedEnv::VERSION
+  end
+
 Gem::Specification.new do |spec|
   spec.name = "rspec-stubbed_env"
-  # Loading version into an anonymous module allows version.rb to get code coverage from SimpleCov!
-  # See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-2630782358
-  spec.version = Module.new.tap { |mod| Kernel.load("lib/rspec/stubbed_env/version.rb", mod) }::RSpec::StubbedEnv::VERSION
+  spec.version = gem_version
   spec.authors = ["Liam Bennett", "Peter Boling"]
   spec.email = ["peter.boling@gmail.com"]
 
