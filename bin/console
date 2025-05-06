@@ -2,7 +2,12 @@
 # frozen_string_literal: true
 
 require "bundler/setup"
-require "rspec/stubbed_env"
+
+# NOTE: loading rspec/stubbed_env/config in the console doesn't make sense,
+#       since we don't have RSpec in the console.
+require "rspec/stubbed_env/version"
+require "rspec/stubbed_env/hide_helpers"
+require "rspec/stubbed_env/stub_helpers"
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
