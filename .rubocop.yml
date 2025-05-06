@@ -5,6 +5,15 @@ inherit_mode:
 inherit_gem:
   rubocop-lts: rubocop-lts.yml
 
+AllCops:
+  Exclude:
+    - "test/sigstore-conformance/**/*"
+    - "test/tuf-conformance/**/*"
+    - "node_modules/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+    - ".git/**/*"
+
 # Metrics cops are disabled in Standard by default
 Metrics:
   Enabled: true
