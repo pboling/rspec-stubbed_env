@@ -11,6 +11,8 @@ We [![Keep A Changelog][📗keep-changelog-img]][📗keep-changelog] so if you m
 
 ## You can help!
 
+Take a look at the `reek` list which is the file called `REEK` and find something to improve.
+
 Simply follow these instructions:
 
 1. Fork the repository
