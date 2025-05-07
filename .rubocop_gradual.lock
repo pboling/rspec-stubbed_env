@@ -2,7 +2,7 @@
   "bin/bundle:875899265": [
     [66, 5, 20, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2485198147]
   ],
-  "rspec-stubbed_env.gemspec:2748912790": [
+  "rspec-stubbed_env.gemspec:2375131820": [
     [4, 6, 12, "Gemspec/RubyVersionGlobalsUsage: Do not use `RUBY_VERSION` in gemspec file.", 31296028]
   ]
 }
