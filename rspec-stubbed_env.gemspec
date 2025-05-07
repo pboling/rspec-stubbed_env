@@ -52,9 +52,13 @@ hide_env('SESSION_SECRET')
   spec.metadata["wiki_uri"] = "#{spec.homepage}/wiki"
   spec.metadata["rubygems_mfa_required"] = "true"
 
+  # Specify which files should be added to the gem when it is released.
   spec.files = Dir[
     # Splats (alphabetical)
     "lib/**/*.rb",
+  ]
+  # Automatically included with gem package, no need to list again in files.
+  spec.extra_rdoc_files = Dir[
     # Files (alphabetical)
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
@@ -62,6 +66,15 @@ hide_env('SESSION_SECRET')
     "LICENSE.txt",
     "README.md",
     "SECURITY.md",
+  ]
+  spec.rdoc_options += [
+    "--title",
+    "#{spec.name} - #{spec.summary}",
+    "--main",
+    "README.md",
+    "--line-numbers",
+    "--inline-source",
+    "--quiet",
   ]
   spec.bindir = "exe"
   spec.require_paths = ["lib"]
