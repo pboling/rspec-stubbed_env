@@ -29,8 +29,9 @@
 [![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi]
 [![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
 
-ENV stubbing via a shared context for more powerful tests.  Now you don't need to add dotenv just for your spec suite.
-ENV hiding via `hide_env("FOO")` was added in v1.0.2.
+* ENV stubbing and hiding via shared contexts for more powerful tests
+* Now you don't need to add dotenv just for your spec suite
+* ENV hiding via `hide_env("FOO")` was added in v1.0.2
 
 ```ruby
 describe "my stubbed test" do
@@ -73,7 +74,7 @@ This gem has no runtime dependencies.
 | Works with MRI Ruby 2   | [![Ruby 2.3 Compat][💎ruby-2.3i]][🚎1-an-wf] [![Ruby 2.4 Compat][💎ruby-2.4i]][🚎1-an-wf] [![Ruby 2.5 Compat][💎ruby-2.5i]][🚎1-an-wf] [![Ruby 2.6 Compat][💎ruby-2.6i]][🚎7-us-wf] [![Ruby 2.7 Compat][💎ruby-2.7i]][🚎7-us-wf]                                                                                                                                                                                                                                    |
 | Source                  | [![Source on GitLab.com][📜src-gl-img]][📜src-gl] [![Source on CodeBerg.org][📜src-cb-img]][📜src-cb] [![Source on Github.com][📜src-gh-img]][📜src-gh] [![The best SHA: dQw4w9WgXcQ!][🧮kloc-img]][🧮kloc]                                                                                                                                                                                                                                                         |
 | Documentation           | [![Current release on RubyDoc.info][📜docs-cr-rd-img]][🚎yard-current] [![HEAD on RubyDoc.info][📜docs-head-rd-img]][🚎yard-head] [![BDFL Blog][🚂bdfl-blog-img]][🚂bdfl-blog] [![Wiki][📜wiki-img]][📜wiki]                                                                                                                                                                                                                                                        |
-| Compliance              | [![License: MIT][📄license-img]][📄license-ref] [![📄ilo-declaration-img]][📄ilo-declaration] [![Security Policy][🔐security-img]][🔐security] [![CodeQL][🖐codeQL-img]][🖐codeQL] [![Contributor Covenant 2.1][🪇conduct-img]][🪇conduct] [![SemVer 2.0.0][📌semver-img]][📌semver] [![Keep-A-Changelog 1.0.0][📗keep-changelog-img]][📗keep-changelog] [![Gitmoji Commits][📌gitmoji-img]][📌gitmoji]                                                             |
+| Compliance              | [![License: MIT][📄license-img]][📄license-ref] [![📄ilo-declaration-img]][📄ilo-declaration] [![Security Policy][🔐security-img]][🔐security] [![Enforced Code Style][💎rlts-img]][💎rlts] [![CodeQL][🖐codeQL-img]][🖐codeQL] [![Contributor Covenant 2.1][🪇conduct-img]][🪇conduct] [![SemVer 2.0.0][📌semver-img]][📌semver] [![Keep-A-Changelog 1.0.0][📗keep-changelog-img]][📗keep-changelog] [![Gitmoji Commits][📌gitmoji-img]][📌gitmoji]                |
 | Expert 1:1 Support      | [![Get help from me on Upwork][👨🏼‍🏫expsup-upwork-img]][👨🏼‍🏫expsup-upwork] `or` [![Get help from me on Codementor][👨🏼‍🏫expsup-codementor-img]][👨🏼‍🏫expsup-codementor]                                                                                                                                                                                                                                                                                    |
 | Enterprise Support      | [![Get help from me on Tidelift][🏙️entsup-tidelift-img]][🏙️entsup-tidelift]<br/>💡Subscribe for support guarantees covering _all_ FLOSS dependencies!<br/>💡Tidelift is part of [Sonar][🏙️entsup-tidelift-sonar]!<br/>💡Tidelift pays maintainers to maintain the software you depend on!<br/>📊`@`Pointy Haired Boss: An [enterprise support][🏙️entsup-tidelift] subscription is "[never gonna let you down][🧮kloc]", and *supports* open source maintainers! |
 | Comrade BDFL 🎖️        | [![Follow Me on LinkedIn][💖🖇linkedin-img]][💖🖇linkedin] [![Follow Me on Ruby.Social][💖🐘ruby-mast-img]][💖🐘ruby-mast] [![Follow Me on Bluesky][💖🦋bluesky-img]][💖🦋bluesky] [![Contact BDFL][🚂bdfl-contact-img]][🚂bdfl-contact] [![My technical writing][💖💁🏼‍♂️devto-img]][💖💁🏼‍♂️devto]                                                                                                                                                              |
@@ -298,7 +299,7 @@ chat rooms and mailing lists is expected to follow the [![Contributor Covenant 2
 
 Made with [contributors-img][🖐contrib-rocks].
 
-Also see GitLab Contributors: [https://gitlab.com/pboling/rspec-stubbed_env/-/graphs/master][🚎contributors-gl]
+Also see GitLab Contributors: [https://gitlab.com/pboling/rspec-stubbed_env/-/graphs/main][🚎contributors-gl]
 
 ## ⭐️ Star History
 
@@ -435,9 +436,9 @@ or one of the others at the head of this README.
 [🔑cc-cov]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env
 [🔑cc-covi♻️]: https://qlty.sh/badges/3884b648-a5a9-4458-9671-a2ce38a1d470/test_coverage.svg
 [🔑codecov]: https://codecov.io/gh/pboling/rspec-stubbed_env
-[🔑codecovi♻️]: https://codecov.io/gh/pboling/rspec-stubbed_env/branch/master/graph/badge.svg?token=Ad3ets1psE
-[🔑coveralls]: https://coveralls.io/github/pboling/rspec-stubbed_env?branch=master
-[🔑coveralls-img]: https://coveralls.io/repos/github/pboling/rspec-stubbed_env/badge.svg?branch=master
+[🔑codecovi♻️]: https://codecov.io/gh/pboling/rspec-stubbed_env/branch/main/graph/badge.svg?token=Ad3ets1psE
+[🔑coveralls]: https://coveralls.io/github/pboling/rspec-stubbed_env?branch=main
+[🔑coveralls-img]: https://coveralls.io/repos/github/pboling/rspec-stubbed_env/badge.svg?branch=main
 [🔑depfu]: https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884
 [🔑depfui♻️]: https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg
 [🖐codeQL]: https://github.com/pboling/rspec-stubbed_env/security/code-scanning
@@ -506,7 +507,7 @@ or one of the others at the head of this README.
 [🖐contrib-rocks]: https://contrib.rocks
 [🖐contributors]: https://github.com/pboling/rspec-stubbed_env/graphs/contributors
 [🖐contributors-img]: https://contrib.rocks/image?repo=pboling/rspec-stubbed_env
-[🚎contributors-gl]: https://gitlab.com/pboling/rspec-stubbed_env/-/graphs/master
+[🚎contributors-gl]: https://gitlab.com/pboling/rspec-stubbed_env/-/graphs/main
 [🪇conduct]: CODE_OF_CONDUCT.md
 [🪇conduct-img]: https://img.shields.io/badge/Contributor_Covenant-2.1-4baaaa.svg
 [📌pvc]: http://guides.rubygems.org/patterns/#pessimistic-version-constraint
@@ -530,6 +531,8 @@ or one of the others at the head of this README.
 [📄ilo-declaration]: https://www.ilo.org/declaration/lang--en/index.htm
 [📄ilo-declaration-img]: https://img.shields.io/badge/ILO_Fundamental_Principles-✓-brightgreen.svg?style=flat
 [🚎yard-current]: http://rubydoc.info/gems/rspec-stubbed_env
-[🚎yard-head]: https://rubydoc.info/github/pboling/rspec-stubbed_env/master
+[🚎yard-head]: https://rubydoc.info/github/pboling/rspec-stubbed_env/main
 [💎stone_checksums]: https://github.com/pboling/stone_checksums
 [💎SHA_checksums]: https://gitlab.com/pboling/rspec-stubbed_env/-/tree/main/checksums
+[💎rlts]: https://github.com/rubocop-lts/rubocop-lts
+[💎rlts-img]: https://img.shields.io/badge/code_style-rubocop--lts-brightgreen.svg?plastic&logo=ruby&logoColor=white
