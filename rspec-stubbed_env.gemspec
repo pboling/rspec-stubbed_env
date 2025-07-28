@@ -79,10 +79,28 @@ hide_env('SESSION_SECRET')
   spec.bindir = "exe"
   spec.require_paths = ["lib"]
 
+  # NOTE: It is preferable to list development dependencies in the gemspec due to increased
+  #       visibility and discoverability on RubyGems.org.
+  #       However, development dependencies in gemspec will install on
+  #       all versions of Ruby that will run in CI.
+  #       This gem, and its runtime dependencies, will install on Ruby down to 1.8.7.
+  #       This gem, and its development dependencies, will install on Ruby down to 2.3.x.
+  #       This is because in CI easy installation of Ruby, via setup-ruby, is for >= 2.3.
+  #       Thus, dev dependencies in gemspec must have
+  #
+  #       required_ruby_version ">= 2.3" (or lower)
+  #
+  #       Development dependencies that require strictly newer Ruby versions should be in a "gemfile",
+  #       and preferably a modular one (see gemfiles/modular/*.gemfile).
+
+  # Release Tasks
+  spec.add_development_dependency("stone_checksums", "~> 1.0") # Ruby >= 2.2.0
+
   ### Testing
   spec.add_development_dependency("appraisal2", "~> 3.0")               # ruby >= 1.8.7
   spec.add_development_dependency("rspec", "~> 3.13")                   # ruby >= 0
   spec.add_development_dependency("rspec-block_is_expected", "~> 1.0")  # ruby >= 1.8.7
+  spec.add_development_dependency("rspec_junit_formatter", "~> 0.6")    # Ruby >= 2.3.0, for GitLab Test Result Parsing
 
   # Development tasks
   spec.add_development_dependency("rake", "~> 13.0")                    # ruby >= 2.2

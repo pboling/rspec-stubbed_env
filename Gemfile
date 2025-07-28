@@ -33,5 +33,3 @@ eval_gemfile "gemfiles/modular/style.gemfile"
 
 # Documentation
 eval_gemfile "gemfiles/modular/documentation.gemfile"
-
-gem "stone_checksums", "~> 1.0"          # ruby >= 2.2"
