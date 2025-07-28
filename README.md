@@ -9,7 +9,7 @@
 
 # 🫥 RSpec::StubbedEnv
 
-[![Version][👽versioni]][👽version] [![License: MIT][📄license-img]][📄license-ref] [![Downloads Rank][👽dl-ranki]][👽dl-rank] [![Open Source Helpers][👽oss-helpi]][👽oss-help] [![Depfu][🔑depfui♻️]][🔑depfu] [![CodeCov Test Coverage][🔑codecovi♻️]][🔑codecov] [![Coveralls Test Coverage][🔑coveralls-img]][🔑coveralls] [![CodeCov Test Coverage][🔑codecovi♻️]][🔑codecov] [![QLTY Test Coverage][🔑qlty-covi]][🔑qlty-cov] [![QLTY Maintainability][🔑qlty-mnti]][🔑qlty-mnt] [![CI Heads][🚎3-hd-wfi]][🚎3-hd-wf] [![CI Current][🚎11-c-wfi]][🚎11-c-wf] [![CI Truffle Ruby][🚎9-t-wfi]][🚎9-t-wf] [![CI JRuby][🚎10-j-wfi]][🚎10-j-wf] [![CI Supported][🚎6-s-wfi]][🚎6-s-wf] [![CI Legacy][🚎4-lg-wfi]][🚎4-lg-wf] [![CI Unsupported][🚎7-us-wfi]][🚎7-us-wf] [![CI Ancient][🚎1-an-wfi]][🚎1-an-wf] [![CI Test Coverage][🚎2-cov-wfi]][🚎2-cov-wf] [![CI Style][🚎5-st-wfi]][🚎5-st-wf] [![CI w/ committed Gemfile.lock][🚎13-k-wfi]][🚎13-k-wf]
+[![Version][👽versioni]][👽version] [![License: MIT][📄license-img]][📄license-ref] [![Downloads Rank][👽dl-ranki]][👽dl-rank] [![Open Source Helpers][👽oss-helpi]][👽oss-help] [![Depfu][🔑depfui♻️]][🔑depfu] [![CodeCov Test Coverage][🔑codecovi♻️]][🔑codecov] [![Coveralls Test Coverage][🔑coveralls-img]][🔑coveralls] [![CodeCov Test Coverage][🔑codecovi♻️]][🔑codecov] [![QLTY Test Coverage][🔑qlty-covi]][🔑qlty-cov] [![QLTY Maintainability][🔑qlty-mnti]][🔑qlty-mnt] [![CI Heads][🚎3-hd-wfi]][🚎3-hd-wf] [![CI Current][🚎11-c-wfi]][🚎11-c-wf] [![CI Truffle Ruby][🚎9-t-wfi]][🚎9-t-wf] [![CI JRuby][🚎10-j-wfi]][🚎10-j-wf] [![Deps Locked][🚎13-🔒️-wfi]][🚎13-🔒️-wf] [![Deps Unlocked][🚎14-🔓️-wfi]][🚎14-🔓️-wf] [![CI Supported][🚎6-s-wfi]][🚎6-s-wf] [![CI Legacy][🚎4-lg-wfi]][🚎4-lg-wf] [![CI Unsupported][🚎7-us-wfi]][🚎7-us-wf] [![CI Ancient][🚎1-an-wfi]][🚎1-an-wf] [![CI Test Coverage][🚎2-cov-wfi]][🚎2-cov-wf] [![CI Style][🚎5-st-wfi]][🚎5-st-wf]
 
 ---
 
@@ -275,6 +275,8 @@ See [CONTRIBUTING.md][🤝contributing] for more detailed instructions.
 
 [![Coverage Graph][🔑codecov-g♻️]][🔑codecov]
 
+[![Coveralls Test Coverage][🔑coveralls-img]][🔑coveralls]
+
 ### 🪇 Code of Conduct
 
 Everyone interacting in this project's codebases, issue trackers,
@@ -475,8 +477,10 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [🚎10-j-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/jruby.yml/badge.svg
 [🚎11-c-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/current.yml
 [🚎11-c-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/current.yml/badge.svg
-[🚎13-k-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/kitchen.yml
-[🚎13-k-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/kitchen.yml/badge.svg
+[🚎13-🔒️-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/deps_locked.yml
+[🚎13-🔒️-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/deps_locked.yml/badge.svg
+[🚎14-🔓️-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/deps_unlocked.yml
+[🚎14-🔓️-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/deps_unlocked.yml/badge.svg
 [💎ruby-2.3i]: https://img.shields.io/badge/Ruby-2.3-DF00CA?style=for-the-badge&logo=ruby&logoColor=white
 [💎ruby-2.4i]: https://img.shields.io/badge/Ruby-2.4-DF00CA?style=for-the-badge&logo=ruby&logoColor=white
 [💎ruby-2.5i]: https://img.shields.io/badge/Ruby-2.5-DF00CA?style=for-the-badge&logo=ruby&logoColor=white
