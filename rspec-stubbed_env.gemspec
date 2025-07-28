@@ -75,12 +75,12 @@ hide_env('SESSION_SECRET')
     "README.md",
     "--line-numbers",
     "--inline-source",
-    "--quiet",
   ]
   spec.bindir = "exe"
   spec.require_paths = ["lib"]
 
-  # Tests
+  ### Testing
+  spec.add_development_dependency("appraisal2", "~> 3.0")               # ruby >= 1.8.7
   spec.add_development_dependency("rspec", "~> 3.13")                   # ruby >= 0
   spec.add_development_dependency("rspec-block_is_expected", "~> 1.0")  # ruby >= 1.8.7
 
