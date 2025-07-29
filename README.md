@@ -15,9 +15,20 @@
 
 [![Liberapay Goal Progress][⛳liberapay-img]][⛳liberapay] [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor] [![Buy me a coffee][🖇buyme-small-img]][🖇buyme] [![Donate on Polar][🖇polar-img]][🖇polar] [![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi] [![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
 
+An `ENV` stubbing / hiding library for sophisticated RSpec test suites.
+
+| Federated [DVCS][💎d-in-dvcs] Repository               | Status                                                            | Issues                    | PRs                      | Wiki                      | CI                       | Discussions                  |
+|--------------------------------------------------------|-------------------------------------------------------------------|---------------------------|--------------------------|---------------------------|--------------------------|------------------------------|
+| 🧪 [pboling/rspec-stubbed_env on GitLab][📜src-gl]     | The Truth                                                         | [💚][🤝gl-issues]         | [💚][🤝gl-pulls]         | [💚][📜wiki]              | 🏀 Tiny Matrix           | ➖                            |
+| 🧊 [pboling/rspec-stubbed_env on CodeBerg][📜src-cb] | An Ethical Mirror ([Donate][🤝cb-donate])                         | ➖                         | [💚][🤝cb-pulls]         | ➖                         | ⭕️ No Matrix             | ➖                            |
+| 🐙 [pboling/rspec-stubbed_env on GitHub][📜src-gh]   | A Dirty Mirror                                                    | [💚][🤝gh-issues]         | [💚][🤝gh-pulls]         | ➖                         | 💯 Full Matrix           | [💚][gh-discussions]         |
+| 🎮️ [Discord Server][✉️discord-invite]                 | [![Live Chat on Discord][✉️discord-invite-img]][✉️discord-invite] | [Let's][✉️discord-invite] | [talk][✉️discord-invite] | [about][✉️discord-invite] | [this][✉️discord-invite] | [library!][✉️discord-invite] |
+
+[gh-discussions]: https://github.com/pboling/rspec-stubbed_env/discussions
+
 * ENV stubbing and hiding via shared contexts for more powerful tests
-* Now you don't need to add dotenv just for your spec suite
-* ENV hiding via `hide_env("FOO")` was added in v1.0.2
+  * ENV hiding via `hide_env("FOO")` was added in v1.0.2
+* No need to add `dotenv` just for the spec suite
 
 ```ruby
 describe "my stubbed test" do
@@ -505,6 +516,13 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [💎jruby-headi]: https://img.shields.io/badge/JRuby-HEAD-FBE742?style=for-the-badge&logo=ruby&logoColor=blue
 [🤝gh-issues]: https://github.com/pboling/rspec-stubbed_env/issues
 [🤝gh-pulls]: https://github.com/pboling/rspec-stubbed_env/pulls
+[🤝gh-issues]: https://github.com/pboling/rspec-stubbed_env/issues
+[🤝gh-pulls]: https://github.com/pboling/rspec-stubbed_env/pulls
+[🤝gl-issues]: https://gitlab.com/pboling/rspec-stubbed_env/-/issues
+[🤝gl-pulls]: https://gitlab.com/pboling/rspec-stubbed_env/-/merge_requests
+[🤝cb-issues]: https://codeberg.org/pboling/rspec-stubbed_env/issues
+[🤝cb-pulls]: https://codeberg.org/pboling/rspec-stubbed_env/pulls
+[🤝cb-donate]: https://donate.codeberg.org/
 [🤝contributing]: CONTRIBUTING.md
 [🔑codecov-g♻️]: https://codecov.io/gh/pboling/rspec-stubbed_env/graphs/tree.svg?token=Ad3ets1psE
 [🖐contrib-rocks]: https://contrib.rocks
@@ -539,3 +557,4 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [💎SHA_checksums]: https://gitlab.com/pboling/rspec-stubbed_env/-/tree/main/checksums
 [💎rlts]: https://github.com/rubocop-lts/rubocop-lts
 [💎rlts-img]: https://img.shields.io/badge/code_style_%26_linting-rubocop--lts-34495e.svg?plastic&logo=ruby&logoColor=white
+[💎d-in-dvcs]: https://railsbling.com/posts/dvcs/put_the_d_in_dvcs/
