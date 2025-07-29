@@ -53,6 +53,7 @@ hide_env('SESSION_SECRET')
   spec.metadata["funding_uri"] = "https://github.com/sponsors/pboling"
   spec.metadata["wiki_uri"] = "#{spec.homepage}/wiki"
   spec.metadata["news_uri"] = "https://www.railsbling.com/tags/#{spec.name}"
+  spec.metadata["discord_uri"] = "https://discord.gg/3qme4XHNKN"
   spec.metadata["rubygems_mfa_required"] = "true"
 
   # Specify which files are part of each release.
