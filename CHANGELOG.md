@@ -7,8 +7,22 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ## [Unreleased]
 ### Added
 ### Changed
-### Fixed
+### Deprecated
 ### Removed
+### Fixed
+### Security
+
+## [1.0.3] - 2025-07-28 ([tag][1.0.3t])
+COVERAGE: 100.00% -- 73/73 lines in 5 files
+BRANCH COVERAGE: 100.00% -- 10/10 branches in 5 files
+- 85.71% documented
+### Added
+- More documentation
+- Tracking maintainability and coverage with QLTY.sh
+- Documentation site
+  - https://rspec-stubbed-env.galtzo.com
+### Changed
+- gemspec metadata
 
 ## [1.0.2] - 2025-05-06 ([tag][1.0.2t])
 - COVERAGE: 100.00% -- 73/73 lines in 5 files
@@ -57,7 +71,9 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 [@darhazer]: https://github.com/darhazer
 [@hosamaly]: https://github.com/hosamaly
 
-[Unreleased]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.2...main
+[Unreleased]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.3...main
+[1.0.3]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.2...v1.0.3
+[1.0.3t]: https://gitlab.com/pboling/rspec-stubbed_env/-/tags/v1.0.3
 [1.0.2]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.1...v1.0.2
 [1.0.2t]: https://gitlab.com/pboling/rspec-stubbed_env/-/tags/v1.0.2
 [1.0.1]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.0...v1.0.1
