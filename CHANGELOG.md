@@ -12,7 +12,8 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ### Fixed
 ### Security
 
-## [1.0.3] - 2025-07-28 ([tag][1.0.3t])
+## [1.0.3] - 2025-07-28
+- TAG: [v1.0.3][1.0.3t]
 - COVERAGE: 100.00% -- 73/73 lines in 5 files
 - BRANCH COVERAGE: 100.00% -- 10/10 branches in 5 files
 - 85.71% documented
@@ -24,7 +25,8 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ### Changed
 - gemspec metadata
 
-## [1.0.2] - 2025-05-06 ([tag][1.0.2t])
+## [1.0.2] - 2025-05-06
+- TAG: [v1.0.2][1.0.2t]
 - COVERAGE: 100.00% -- 73/73 lines in 5 files
 - BRANCH COVERAGE: 100.00% -- 10/10 branches in 5 files
 - 85.71% documented
@@ -45,7 +47,8 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 - Upgraded Code of Conduct based on Contributor Covenant v2.1
 - New pattern for loading version.rb in gemspec allows (real) 100% code coverage
 
-## [1.0.1] - 2023-04-01 ([tag][1.0.1t])
+## [1.0.1] - 2023-04-01
+- TAG: [v1.0.1][1.0.1t]
 ### Added
 - support for values_at (@darhazer)
 - support for symbol keys (@hosamaly)
@@ -62,7 +65,8 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ### Fixed
 - README Badges (CI status)
 
-## [1.0.0] - 2018-10-06 ([tag][1.0.0t])
+## [1.0.0] - 2018-10-06
+- TAG: [v1.0.0][1.0.0t]
 ### Added
 - negated matchers
 - rubocop config
