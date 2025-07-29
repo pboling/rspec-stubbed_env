@@ -1,6 +1,6 @@
 # Contributing
 
-Bug reports and pull requests are welcome on GitHub, CodeBerg or [GitLab][🚎src-main].
+Bug reports and pull requests are welcome on GitHub, CodeBerg, or [GitLab][🚎src-main].
 This project should be a safe, welcoming space for collaboration, so contributors agree to adhere to
 the [code of conduct][🤝conduct].
 
@@ -129,5 +129,4 @@ NOTE: To build without signing the gem you must set `SKIP_GEM_SIGNING` to some v
 [📗keep-changelog-img]: https://img.shields.io/badge/keep--a--changelog-1.0.0-FFDD67.svg?style=flat
 [📌semver-breaking]: https://github.com/semver/semver/issues/716#issuecomment-869336139
 [📌major-versions-not-sacred]: https://tom.preston-werner.com/2022/05/23/major-version-numbers-are-not-sacred.html
-
 [🏃‍♂️runner-tool-cache]: https://github.com/ruby/ruby-builder/releases/tag/toolcache

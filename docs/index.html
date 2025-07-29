@@ -278,19 +278,19 @@ by following the instructions below.</p>
 
 <p>Add my public key (if you haven’t already, expires 2045-04-29) as a trusted certificate:</p>
 
-<pre class="code language-shell"><code class="language-shell">gem cert --add &lt;(curl -Ls https://raw.github.com/oauth-xx/rspec-stubbed_env/main/certs/pboling.pem)
+<pre class="code language-console"><code class="language-console">gem cert --add &lt;(curl -Ls https://raw.github.com/oauth-xx/rspec-stubbed_env/main/certs/pboling.pem)
 </code></pre>
 
 <p>You only need to do that once.  Then proceed to install with:</p>
 
-<pre class="code language-shell"><code class="language-shell">gem install rspec-stubbed_env -P HighSecurity
+<pre class="code language-console"><code class="language-console">gem install rspec-stubbed_env -P HighSecurity
 </code></pre>
 
 <p>The <code>HighSecurity</code> trust profile will verify signed gems, and not allow the installation of unsigned dependencies.</p>
 
 <p>If you want to up your security game full-time:</p>
 
-<pre class="code language-shell"><code class="language-shell">bundle config set --global trust-policy MediumSecurity
+<pre class="code language-console"><code class="language-console">bundle config set --global trust-policy MediumSecurity
 </code></pre>
 
 <p><code>MediumSecurity</code> instead of <code>HighSecurity</code> is necessary if not all the gems you use are signed.</p>
@@ -433,7 +433,7 @@ end
 
 <p>We migrated from <code>master</code> to <code>main</code> as the default branch.  If this affected your local checkout:</p>
 
-<pre class="code language-shell"><code class="language-shell">git branch -m master main
+<pre class="code language-console"><code class="language-console">git branch -m master main
 git fetch origin
 git branch -u origin/main main
 git remote set-head origin -a
@@ -569,7 +569,7 @@ or one of smaller ones, depending on button size preference.</p>
 </div></div>
 
       <div id="footer">
-  Generated on Mon Jul 28 20:29:42 2025 by
+  Generated on Mon Jul 28 23:26:10 2025 by
   <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.37 (ruby-3.4.5).
 </div>
