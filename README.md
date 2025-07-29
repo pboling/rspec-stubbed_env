@@ -533,8 +533,8 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [📄license-img]: https://img.shields.io/badge/License-MIT-259D6C.svg
 [📄ilo-declaration]: https://www.ilo.org/declaration/lang--en/index.htm
 [📄ilo-declaration-img]: https://img.shields.io/badge/ILO_Fundamental_Principles-✓-259D6C.svg?style=flat
-[🚎yard-current]: http://rubydoc.info/gems/omniauth-identity
-[🚎yard-head]: https://omniauth-identity.galtzo.com
+[🚎yard-current]: http://rubydoc.info/gems/rspec-stubbed-env
+[🚎yard-head]: https://rspec-stubbed-env.galtzo.com
 [💎stone_checksums]: https://github.com/pboling/stone_checksums
 [💎SHA_checksums]: https://gitlab.com/pboling/rspec-stubbed_env/-/tree/main/checksums
 [💎rlts]: https://github.com/rubocop-lts/rubocop-lts
