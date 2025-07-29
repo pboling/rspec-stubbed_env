@@ -25,12 +25,8 @@ Simply follow these instructions:
 
 ## Appraisals
 
-From time to time the appraisal gemfiles in `gemfiles/` will need to be updated.
+From time to time the Appraisal2 gemfiles in `gemfiles/` will need to be updated.
 They are created and updated with the commands:
-
-NOTE: We run on a [fork][🚎appraisal-fork] of Appraisal.
-
-Please upvote the PR for `eval_gemfile` [support][🚎appraisal-eval-gemfile-pr]
 
 ```shell
 BUNDLE_GEMFILE=Appraisal.root.gemfile bundle
