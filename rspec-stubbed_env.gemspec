@@ -2,7 +2,7 @@
 
 gem_version =
   if RUBY_VERSION >= "3.1"
-    # Loading version into an anonymous module allows version.rb to get code coverage from SimpleCov!
+    # Loading Version into an anonymous module allows version.rb to get code coverage from SimpleCov!
     # See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-2630782358
     Module.new.tap { |mod| Kernel.load("lib/rspec/stubbed_env/version.rb", mod) }::RSpec::StubbedEnv::VERSION
   else
@@ -15,11 +15,11 @@ gem_version =
 Gem::Specification.new do |spec|
   spec.name = "rspec-stubbed_env"
   spec.version = gem_version
-  spec.authors = ["Liam Bennett", "Peter Boling"]
-  spec.email = ["peter.boling@gmail.com"]
+  spec.authors = ["Peter Boling", "Liam Bennett"]
+  spec.email = ["floss@galtzo.com"]
 
-  # Linux distros may package ruby gems differently,
-  #   and securely certify them independently via alternate package management systems.
+  # Linux distros often package gems and securely certify them independent
+  #   of the official RubyGem certification process. Allowed via ENV["SKIP_GEM_SIGNING"]
   # Ref: https://gitlab.com/oauth-xx/version_gem/-/issues/3
   # Hence, only enable signing if `SKIP_GEM_SIGNING` is not set in ENV.
   # See CONTRIBUTING.md
@@ -39,16 +39,16 @@ Gem::Specification.new do |spec|
 stub_env('REDIS_URL' => 'redis://localhost:6379/')
 hide_env('SESSION_SECRET')
 ]
-  spec.homepage = "https://github.com/pboling/rspec-stubbed_env"
+  spec.homepage = "https://github.com/pboling/#{spec.name}"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 1.8.7"
 
-  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["homepage_uri"] = "https://#{spec.name.tr("_", "-")}.galtzo.com/"
   spec.metadata["source_code_uri"] = "#{spec.homepage}/tree/v#{spec.version}"
   spec.metadata["changelog_uri"] = "#{spec.homepage}/blob/v#{spec.version}/CHANGELOG.md"
   spec.metadata["bug_tracker_uri"] = "#{spec.homepage}/issues"
   spec.metadata["documentation_uri"] = "https://www.rubydoc.info/gems/#{spec.name}/#{spec.version}"
-  spec.metadata["funding_uri"] = "https://liberapay.com/pboling"
+  spec.metadata["funding_uri"] = "https://github.com/sponsors/pboling"
   spec.metadata["wiki_uri"] = "#{spec.homepage}/wiki"
   spec.metadata["news_uri"] = "https://www.railsbling.com/tags/#{spec.name}"
   spec.metadata["rubygems_mfa_required"] = "true"
@@ -72,12 +72,19 @@ hide_env('SESSION_SECRET')
     "--title",
     "#{spec.name} - #{spec.summary}",
     "--main",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE.txt",
     "README.md",
+    "SECURITY.md",
     "--line-numbers",
     "--inline-source",
+    "--quiet",
   ]
-  spec.bindir = "exe"
   spec.require_paths = ["lib"]
+  spec.bindir = "exe"
+  spec.executables = []
 
   # NOTE: It is preferable to list development dependencies in the gemspec due to increased
   #       visibility and discoverability on RubyGems.org.
@@ -94,7 +101,7 @@ hide_env('SESSION_SECRET')
   #       and preferably a modular one (see gemfiles/modular/*.gemfile).
 
   # Release Tasks
-  spec.add_development_dependency("stone_checksums", "~> 1.0") # Ruby >= 2.2.0
+  spec.add_development_dependency("stone_checksums", "~> 1.0")          # Ruby >= 2.2.0
 
   ### Testing
   spec.add_development_dependency("appraisal2", "~> 3.0")               # ruby >= 1.8.7
