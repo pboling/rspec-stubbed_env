@@ -3,6 +3,7 @@
 # HOW TO UPDATE APPRAISALS:
 #   BUNDLE_GEMFILE=Appraisal.root.gemfile bundle
 #   BUNDLE_GEMFILE=Appraisal.root.gemfile bundle exec appraisal update
+#   bundle exec rake rubocop_gradual:autocorrect
 
 # Lock/Unlock Deps Pattern
 #
