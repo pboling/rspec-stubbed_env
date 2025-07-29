@@ -96,13 +96,13 @@ by following the instructions below.
 
 Add my public key (if you haven’t already, expires 2045-04-29) as a trusted certificate:
 
-```shell
+```console
 gem cert --add <(curl -Ls https://raw.github.com/oauth-xx/rspec-stubbed_env/main/certs/pboling.pem)
 ```
 
 You only need to do that once.  Then proceed to install with:
 
-```shell
+```console
 gem install rspec-stubbed_env -P HighSecurity
 ```
 
@@ -110,7 +110,7 @@ The `HighSecurity` trust profile will verify signed gems, and not allow the inst
 
 If you want to up your security game full-time:
 
-```shell
+```console
 bundle config set --global trust-policy MediumSecurity
 ```
 
@@ -256,7 +256,7 @@ end
 
 We migrated from `master` to `main` as the default branch.  If this affected your local checkout:
 
-```shell
+```console
 git branch -m master main
 git fetch origin
 git branch -u origin/main main
