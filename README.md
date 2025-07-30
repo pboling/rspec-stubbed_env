@@ -127,7 +127,7 @@ by following the instructions below.
 Add my public key (if you haven’t already, expires 2045-04-29) as a trusted certificate:
 
 ```console
-gem cert --add <(curl -Ls https://raw.github.com/oauth-xx/rspec-stubbed_env/main/certs/pboling.pem)
+gem cert --add <(curl -Ls https://raw.github.com/galtzo-floss/certs/main/pboling.pem)
 ```
 
 You only need to do that once.  Then proceed to install with:
