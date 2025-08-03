@@ -75,12 +75,12 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 [@darhazer]: https://github.com/darhazer
 [@hosamaly]: https://github.com/hosamaly
 
-[Unreleased]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.3...main
-[1.0.3]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.2...v1.0.3
-[1.0.3t]: https://gitlab.com/pboling/rspec-stubbed_env/-/tags/v1.0.3
-[1.0.2]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.1...v1.0.2
-[1.0.2t]: https://gitlab.com/pboling/rspec-stubbed_env/-/tags/v1.0.2
-[1.0.1]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/v1.0.0...v1.0.1
-[1.0.1t]: https://gitlab.com/pboling/rspec-stubbed_env/-/tags/v1.0.1
-[1.0.0]: https://gitlab.com/pboling/rspec-stubbed_env/-/compare/a3055964517c159bf214712940982034b75264be...v1.0.0
-[1.0.0t]: https://gitlab.com/pboling/rspec-stubbed_env/-/tags/v1.0.0
+[Unreleased]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.3...main
+[1.0.3]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.2...v1.0.3
+[1.0.3t]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/tags/v1.0.3
+[1.0.2]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.1...v1.0.2
+[1.0.2t]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/tags/v1.0.2
+[1.0.1]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.0...v1.0.1
+[1.0.1t]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/tags/v1.0.1
+[1.0.0]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/a3055964517c159bf214712940982034b75264be...v1.0.0
+[1.0.0t]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/tags/v1.0.0

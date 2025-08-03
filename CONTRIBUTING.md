@@ -75,7 +75,7 @@ Your picture could be here!
 
 Made with [contributors-img][🖐contrib-rocks].
 
-Also see GitLab Contributors: [https://gitlab.com/pboling/rspec-stubbed_env/-/graphs/main][🚎contributors-gl]
+Also see GitLab Contributors: [https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/graphs/main][🚎contributors-gl]
 
 ## For Maintainers
 
@@ -113,13 +113,13 @@ NOTE: To build without signing the gem you must set `SKIP_GEM_SIGNING` to some v
 12. Run `bundle exec rake release` which will create a git tag for the version,
     push git commits and tags, and push the `.gem` file to [rubygems.org][💎rubygems]
 
-[🚎src-main]: https://gitlab.com/pboling/rspec-stubbed_env
-[🧪build]: https://github.com/pboling/rspec-stubbed_env/actions
-[🤝conduct]: https://gitlab.com/pboling/rspec-stubbed_env/-/blob/main/CODE_OF_CONDUCT.md
+[🚎src-main]: https://gitlab.com/galtzo-floss/rspec-stubbed_env
+[🧪build]: https://github.com/galtzo-floss/rspec-stubbed_env/actions
+[🤝conduct]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/blob/main/CODE_OF_CONDUCT.md
 [🖐contrib-rocks]: https://contrib.rocks
-[🖐contributors]: https://github.com/pboling/rspec-stubbed_env/graphs/contributors
-[🚎contributors-gl]: https://gitlab.com/pboling/rspec-stubbed_env/-/graphs/main
-[🖐contributors-img]: https://contrib.rocks/image?repo=pboling/rspec-stubbed_env
+[🖐contributors]: https://github.com/galtzo-floss/rspec-stubbed_env/graphs/contributors
+[🚎contributors-gl]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/graphs/main
+[🖐contributors-img]: https://contrib.rocks/image?repo=galtzo-floss/rspec-stubbed_env
 [💎rubygems]: https://rubygems.org
 [🔒️rubygems-security-guide]: https://guides.rubygems.org/security/#building-gems
 [🔒️rubygems-checksums-pr]: https://github.com/rubygems/rubygems/pull/6022
