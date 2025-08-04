@@ -1,7 +1,9 @@
-[![Galtzo FLOSS Logo by Aboling0, CC BY-SA 4.0][🖼️galtzo-i]][🖼️logos] [![ruby-lang Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5][🖼️ruby-lang-i]][🖼️ruby-lang] [![rspec-stubbed_env Logo by Aboling0, CC BY-SA 4.0][🖼️rspec-stubbed_env-i]][🖼️rspec-stubbed_env]
+[![Galtzo FLOSS Logo by Aboling0, CC BY-SA 4.0][🖼️galtzo-i]][🖼️logos] [![rspec Logo by Ninefold, a Macquarie Telecom company, CC BY-NC-SA 4.0][🖼️rspec-i]][🖼️rspec] [![ruby-lang Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5][🖼️ruby-lang-i]][🖼️ruby-lang] [![rspec-stubbed_env Logo by Aboling0, CC BY-SA 4.0][🖼️rspec-stubbed_env-i]][🖼️rspec-stubbed_env]
 
 [🖼️galtzo-i]: https://logos.galtzo.com/assets/images/galtzo-floss/avatar-192px.svg
 [🖼️logos]: https://github.com/galtzo-floss
+[🖼️rspec-i]: https://logos.galtzo.com/assets/images/rspec/avatar-192px.svg
+[🖼️rspec]: https://github.com/rspec
 [🖼️ruby-lang-i]: https://logos.galtzo.com/assets/images/ruby-lang/avatar-192px.svg
 [🖼️ruby-lang]: https://github.com/ruby-lang
 [🖼️rspec-stubbed_env-i]: https://logos.galtzo.com/assets/images/galtzo-floss/rspec-stubbed_env/avatar-192px.svg
@@ -394,7 +396,7 @@ See [LICENSE.txt][📄license] for the official [Copyright Notice][📄copyright
         <a href="https://discord.gg/3qme4XHNKN">
             Galtzo.com
             <picture>
-              <img src="https://github.com/galtzo-floss/shields-badge/raw/main/docs/images/logo/galtzo-floss-logos-wordless.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0" width="24">
+              <img src="https://logos.galtzo.com/assets/images/galtzo-floss/avatar-128px-blank.svg" alt="Galtzo.com Logo (Wordless) by Aboling0, CC BY-SA 4.0" width="24">
             </picture>
         </a>, and rspec-stubbed_env contributors
     </li>
@@ -486,10 +488,10 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [👽oss-helpi]: https://www.codetriage.com/galtzo-floss/rspec-stubbed_env/badges/users.svg
 [👽version]: https://rubygems.org/gems/rspec-stubbed_env
 [👽versioni]: https://img.shields.io/gem/v/rspec-stubbed_env.svg
-[🔑qlty-mnt]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env
-[🔑qlty-mnti]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env/maintainability.svg
-[🔑qlty-cov]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env/metrics/code?sort=coverageRating
-[🔑qlty-covi]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env/coverage.svg
+[🔑qlty-mnt]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env
+[🔑qlty-mnti]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env/maintainability.svg
+[🔑qlty-cov]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env/metrics/code?sort=coverageRating
+[🔑qlty-covi]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env/coverage.svg
 [🔑codecov]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env
 [🔑codecovi♻️]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env/branch/main/graph/badge.svg?token=Ad3ets1psE
 [🔑coveralls]: https://coveralls.io/github/galtzo-floss/rspec-stubbed_env?branch=main
@@ -585,7 +587,7 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [📄ilo-declaration-img]: https://img.shields.io/badge/ILO_Fundamental_Principles-✓-259D6C.svg?style=flat
 [🚎yard-current]: http://rubydoc.info/gems/rspec-stubbed_env
 [🚎yard-head]: https://rspec-stubbed-env.galtzo.com
-[💎stone_checksums]: https://github.com/pboling/stone_checksums
+[💎stone_checksums]: https://github.com/galtzo-floss/stone_checksums
 [💎SHA_checksums]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/tree/main/checksums
 [💎rlts]: https://github.com/rubocop-lts/rubocop-lts
 [💎rlts-img]: https://img.shields.io/badge/code_style_%26_linting-rubocop--lts-34495e.svg?plastic&logo=ruby&logoColor=white
