@@ -41,7 +41,7 @@ Gem::Specification.new do |spec|
 stub_env('REDIS_URL' => 'redis://localhost:6379/')
 hide_env('SESSION_SECRET')
 ]
-  spec.homepage = "https://github.com/pboling/#{spec.name}"
+  spec.homepage = "https://github.com/galtzo-floss/#{spec.name}"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 1.8.7"
 

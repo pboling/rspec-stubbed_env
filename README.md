@@ -1,11 +1,13 @@
-<p align="center">
-  <a href="https://discord.gg/3qme4XHNKN" target="_blank" rel="noopener">
-    <img width="120px" src="https://github.com/galtzo-floss/shields-badge/raw/main/docs/images/logo/galtzo-floss-logos-original.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0">
-  </a>
-  <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
-    <img width="120px" src="https://github.com/galtzo-floss/shields-badge/raw/main/docs/images/logo/ruby-logo-198px.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
-  </a>
-</p>
+[![Galtzo FLOSS Logo by Aboling0, CC BY-SA 4.0][🖼️galtzo-i]][🖼️logos] [![rspec Logo by Ninefold, a Macquarie Telecom company, CC BY-NC-SA 4.0][🖼️rspec-i]][🖼️rspec] [![ruby-lang Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5][🖼️ruby-lang-i]][🖼️ruby-lang] [![rspec-stubbed_env Logo by Aboling0, CC BY-SA 4.0][🖼️rspec-stubbed_env-i]][🖼️rspec-stubbed_env]
+
+[🖼️galtzo-i]: https://logos.galtzo.com/assets/images/galtzo-floss/avatar-192px.svg
+[🖼️logos]: https://github.com/galtzo-floss
+[🖼️rspec-i]: https://logos.galtzo.com/assets/images/rspec/avatar-192px.svg
+[🖼️rspec]: https://github.com/rspec
+[🖼️ruby-lang-i]: https://logos.galtzo.com/assets/images/ruby-lang/avatar-192px.svg
+[🖼️ruby-lang]: https://github.com/ruby-lang
+[🖼️rspec-stubbed_env-i]: https://logos.galtzo.com/assets/images/galtzo-floss/rspec-stubbed_env/avatar-192px.svg
+[🖼️rspec-stubbed_env]: https://github.com/galtzo-floss/rspec-stubbed_env
 
 # 🫥 RSpec::StubbedEnv
 
@@ -63,14 +65,14 @@ This gem has no runtime dependencies.
 
 | Federated [DVCS][💎d-in-dvcs] Repository               | Status                                                            | Issues                    | PRs                      | Wiki                      | CI                       | Discussions                  |
 |--------------------------------------------------------|-------------------------------------------------------------------|---------------------------|--------------------------|---------------------------|--------------------------|------------------------------|
-| 🧪 [pboling/rspec-stubbed_env on GitLab][📜src-gl]     | The Truth                                                         | [💚][🤝gl-issues]         | [💚][🤝gl-pulls]         | [💚][📜wiki]              | 🏀 Tiny Matrix           | ➖                            |
-| 🧊 [pboling/rspec-stubbed_env on CodeBerg][📜src-cb] | An Ethical Mirror ([Donate][🤝cb-donate])                         | [💚][🤝cb-issues]         | [💚][🤝cb-pulls]         | ➖                         | ⭕️ No Matrix             | ➖                            |
-| 🐙 [pboling/rspec-stubbed_env on GitHub][📜src-gh]   | A Dirty Mirror                                                    | [💚][🤝gh-issues]         | [💚][🤝gh-pulls]         | ➖                         | 💯 Full Matrix           | [💚][gh-discussions]         |
+| 🧪 [galtzo-floss/rspec-stubbed_env on GitLab][📜src-gl]     | The Truth                                                         | [💚][🤝gl-issues]         | [💚][🤝gl-pulls]         | [💚][📜wiki]              | 🏀 Tiny Matrix           | ➖                            |
+| 🧊 [galtzo-floss/rspec-stubbed_env on CodeBerg][📜src-cb] | An Ethical Mirror ([Donate][🤝cb-donate])                         | [💚][🤝cb-issues]         | [💚][🤝cb-pulls]         | ➖                         | ⭕️ No Matrix             | ➖                            |
+| 🐙 [galtzo-floss/rspec-stubbed_env on GitHub][📜src-gh]   | A Dirty Mirror                                                    | [💚][🤝gh-issues]         | [💚][🤝gh-pulls]         | ➖                         | 💯 Full Matrix           | [💚][gh-discussions]         |
 | 🎮️ [Discord Server][✉️discord-invite]                 | [![Live Chat on Discord][✉️discord-invite-img]][✉️discord-invite] | [Let's][✉️discord-invite] | [talk][✉️discord-invite] | [about][✉️discord-invite] | [this][✉️discord-invite] | [library!][✉️discord-invite] |
 
 </details>
 
-[gh-discussions]: https://github.com/pboling/rspec-stubbed_env/discussions
+[gh-discussions]: https://github.com/galtzo-floss/rspec-stubbed_env/discussions
 
 ### Enterprise Support
 
@@ -127,7 +129,7 @@ by following the instructions below.
 Add my public key (if you haven’t already, expires 2045-04-29) as a trusted certificate:
 
 ```console
-gem cert --add <(curl -Ls https://raw.github.com/oauth-xx/rspec-stubbed_env/main/certs/pboling.pem)
+gem cert --add <(curl -Ls https://raw.github.com/galtzo-floss/certs/main/pboling.pem)
 ```
 
 You only need to do that once.  Then proceed to install with:
@@ -331,15 +333,15 @@ chat rooms and mailing lists is expected to follow the [![Contributor Covenant 2
 
 Made with [contributors-img][🖐contrib-rocks].
 
-Also see GitLab Contributors: [https://gitlab.com/pboling/rspec-stubbed_env/-/graphs/main][🚎contributors-gl]
+Also see GitLab Contributors: [https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/graphs/main][🚎contributors-gl]
 
 ## ⭐️ Star History
 
-<a href="https://star-history.com/#pboling/rspec-stubbed_env&Date">
+<a href="https://star-history.com/#galtzo-floss/rspec-stubbed_env&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=pboling/rspec-stubbed_env&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=pboling/rspec-stubbed_env&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=pboling/rspec-stubbed_env&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=galtzo-floss/rspec-stubbed_env&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=galtzo-floss/rspec-stubbed_env&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=galtzo-floss/rspec-stubbed_env&type=Date" />
  </picture>
 </a>
 
@@ -394,7 +396,7 @@ See [LICENSE.txt][📄license] for the official [Copyright Notice][📄copyright
         <a href="https://discord.gg/3qme4XHNKN">
             Galtzo.com
             <picture>
-              <img src="https://github.com/galtzo-floss/shields-badge/raw/main/docs/images/logo/galtzo-floss-logos-wordless.svg?raw=true" alt="Galtzo.com Logo by Aboling0, CC BY-SA 4.0" width="24">
+              <img src="https://logos.galtzo.com/assets/images/galtzo-floss/avatar-128px-blank.svg" alt="Galtzo.com Logo (Wordless) by Aboling0, CC BY-SA 4.0" width="24">
             </picture>
         </a>, and rspec-stubbed_env contributors
     </li>
@@ -433,7 +435,7 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [✉️discord-invite-img]: https://img.shields.io/discord/1373797679469170758?style=for-the-badge
 
 [✇bundle-group-pattern]: https://gist.github.com/pboling/4564780
-[⛳️gem-namespace]: https://github.com/pboling/rspec-stubbed_env
+[⛳️gem-namespace]: https://github.com/galtzo-floss/rspec-stubbed_env
 [⛳️namespace-img]: https://img.shields.io/badge/namespace-RSpec%3A%3AStubbedEnv-brightgreen.svg?style=flat&logo=ruby&logoColor=white
 [⛳️gem-name]: https://rubygems.org/gems/rspec-stubbed_env
 [⛳️name-img]: https://img.shields.io/badge/name-rspec--stubbed__env-brightgreen.svg?style=flat&logo=rubygems&logoColor=red
@@ -471,59 +473,59 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [💁🏼‍♂️peterboling]: http://www.peterboling.com
 [🚂railsbling]: http://www.railsbling.com
 [📜src-gl-img]: https://img.shields.io/badge/GitLab-FBA326?style=for-the-badge&logo=Gitlab&logoColor=orange
-[📜src-gl]: https://gitlab.com/pboling/rspec-stubbed_env/
+[📜src-gl]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/
 [📜src-cb-img]: https://img.shields.io/badge/CodeBerg-4893CC?style=for-the-badge&logo=CodeBerg&logoColor=blue
-[📜src-cb]: https://codeberg.org/pboling/rspec-stubbed_env
+[📜src-cb]: https://codeberg.org/galtzo-floss/rspec-stubbed_env
 [📜src-gh-img]: https://img.shields.io/badge/GitHub-238636?style=for-the-badge&logo=Github&logoColor=green
-[📜src-gh]: https://github.com/pboling/rspec-stubbed_env
+[📜src-gh]: https://github.com/galtzo-floss/rspec-stubbed_env
 [📜docs-cr-rd-img]: https://img.shields.io/badge/RubyDoc-Current_Release-943CD2?style=for-the-badge&logo=readthedocs&logoColor=white
 [📜docs-head-rd-img]: https://img.shields.io/badge/YARD_on_Galtzo.com-HEAD-943CD2?style=for-the-badge&logo=readthedocs&logoColor=white
-[📜wiki]: https://gitlab.com/pboling/rspec-stubbed_env/-/wikis/home
+[📜wiki]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/wikis/home
 [📜wiki-img]: https://img.shields.io/badge/wiki-examples-943CD2.svg?style=for-the-badge&logo=Wiki&logoColor=white
 [👽dl-rank]: https://rubygems.org/gems/rspec-stubbed_env
 [👽dl-ranki]: https://img.shields.io/gem/rd/rspec-stubbed_env.svg
-[👽oss-help]: https://www.codetriage.com/pboling/rspec-stubbed_env
-[👽oss-helpi]: https://www.codetriage.com/pboling/rspec-stubbed_env/badges/users.svg
+[👽oss-help]: https://www.codetriage.com/galtzo-floss/rspec-stubbed_env
+[👽oss-helpi]: https://www.codetriage.com/galtzo-floss/rspec-stubbed_env/badges/users.svg
 [👽version]: https://rubygems.org/gems/rspec-stubbed_env
 [👽versioni]: https://img.shields.io/gem/v/rspec-stubbed_env.svg
-[🔑qlty-mnt]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env
-[🔑qlty-mnti]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env/maintainability.svg
-[🔑qlty-cov]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env/metrics/code?sort=coverageRating
-[🔑qlty-covi]: https://qlty.sh/gh/pboling/projects/rspec-stubbed_env/coverage.svg
-[🔑codecov]: https://codecov.io/gh/pboling/rspec-stubbed_env
-[🔑codecovi♻️]: https://codecov.io/gh/pboling/rspec-stubbed_env/branch/main/graph/badge.svg?token=Ad3ets1psE
-[🔑coveralls]: https://coveralls.io/github/pboling/rspec-stubbed_env?branch=main
-[🔑coveralls-img]: https://coveralls.io/repos/github/pboling/rspec-stubbed_env/badge.svg?branch=main
-[🔑depfu]: https://depfu.com/github/pboling/rspec-stubbed_env?project_id=5884
+[🔑qlty-mnt]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env
+[🔑qlty-mnti]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env/maintainability.svg
+[🔑qlty-cov]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env/metrics/code?sort=coverageRating
+[🔑qlty-covi]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env/coverage.svg
+[🔑codecov]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env
+[🔑codecovi♻️]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env/graph/badge.svg?token=hRnUCPqxMu
+[🔑coveralls]: https://coveralls.io/github/galtzo-floss/rspec-stubbed_env?branch=main
+[🔑coveralls-img]: https://coveralls.io/repos/github/galtzo-floss/rspec-stubbed_env/badge.svg?branch=main
+[🔑depfu]: https://depfu.com/github/galtzo-floss/rspec-stubbed_env?project_id=5884
 [🔑depfui♻️]: https://badges.depfu.com/badges/a48948dd503f23a440f2c17910563f43/count.svg
-[🖐codeQL]: https://github.com/pboling/rspec-stubbed_env/security/code-scanning
-[🖐codeQL-img]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/codeql-analysis.yml/badge.svg
-[🚎1-an-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/ancient.yml
-[🚎1-an-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/ancient.yml/badge.svg
-[🚎2-cov-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/coverage.yml
-[🚎2-cov-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/coverage.yml/badge.svg
-[🚎3-hd-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/heads.yml
-[🚎3-hd-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/heads.yml/badge.svg
-[🚎4-lg-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/legacy.yml
-[🚎4-lg-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/legacy.yml/badge.svg
-[🚎5-st-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/style.yml
-[🚎5-st-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/style.yml/badge.svg
-[🚎6-s-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/supported.yml
-[🚎6-s-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/supported.yml/badge.svg
-[🚎7-us-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/unsupported.yml
-[🚎7-us-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/unsupported.yml/badge.svg
-[🚎8-ho-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/hoary.yml
-[🚎8-ho-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/hoary.yml/badge.svg
-[🚎9-t-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/truffle.yml
-[🚎9-t-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/truffle.yml/badge.svg
-[🚎10-j-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/jruby.yml
-[🚎10-j-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/jruby.yml/badge.svg
-[🚎11-c-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/current.yml
-[🚎11-c-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/current.yml/badge.svg
-[🚎13-🔒️-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/deps_locked.yml
-[🚎13-🔒️-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/deps_locked.yml/badge.svg
-[🚎14-🔓️-wf]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/deps_unlocked.yml
-[🚎14-🔓️-wfi]: https://github.com/pboling/rspec-stubbed_env/actions/workflows/deps_unlocked.yml/badge.svg
+[🖐codeQL]: https://github.com/galtzo-floss/rspec-stubbed_env/security/code-scanning
+[🖐codeQL-img]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/codeql-analysis.yml/badge.svg
+[🚎1-an-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/ancient.yml
+[🚎1-an-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/ancient.yml/badge.svg
+[🚎2-cov-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/coverage.yml
+[🚎2-cov-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/coverage.yml/badge.svg
+[🚎3-hd-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/heads.yml
+[🚎3-hd-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/heads.yml/badge.svg
+[🚎4-lg-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/legacy.yml
+[🚎4-lg-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/legacy.yml/badge.svg
+[🚎5-st-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/style.yml
+[🚎5-st-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/style.yml/badge.svg
+[🚎6-s-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/supported.yml
+[🚎6-s-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/supported.yml/badge.svg
+[🚎7-us-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/unsupported.yml
+[🚎7-us-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/unsupported.yml/badge.svg
+[🚎8-ho-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/hoary.yml
+[🚎8-ho-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/hoary.yml/badge.svg
+[🚎9-t-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/truffle.yml
+[🚎9-t-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/truffle.yml/badge.svg
+[🚎10-j-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/jruby.yml
+[🚎10-j-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/jruby.yml/badge.svg
+[🚎11-c-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/current.yml
+[🚎11-c-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/current.yml/badge.svg
+[🚎13-🔒️-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/deps_locked.yml
+[🚎13-🔒️-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/deps_locked.yml/badge.svg
+[🚎14-🔓️-wf]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/deps_unlocked.yml
+[🚎14-🔓️-wfi]: https://github.com/galtzo-floss/rspec-stubbed_env/actions/workflows/deps_unlocked.yml/badge.svg
 [💎ruby-2.3i]: https://img.shields.io/badge/Ruby-2.3-DF00CA?style=for-the-badge&logo=ruby&logoColor=white
 [💎ruby-2.4i]: https://img.shields.io/badge/Ruby-2.4-DF00CA?style=for-the-badge&logo=ruby&logoColor=white
 [💎ruby-2.5i]: https://img.shields.io/badge/Ruby-2.5-DF00CA?style=for-the-badge&logo=ruby&logoColor=white
@@ -546,21 +548,21 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [💎jruby-9.4i]: https://img.shields.io/badge/JRuby-9.4-FBE742?style=for-the-badge&logo=ruby&logoColor=red
 [💎jruby-c-i]: https://img.shields.io/badge/JRuby-current-FBE742?style=for-the-badge&logo=ruby&logoColor=green
 [💎jruby-headi]: https://img.shields.io/badge/JRuby-HEAD-FBE742?style=for-the-badge&logo=ruby&logoColor=blue
-[🤝gh-issues]: https://github.com/pboling/rspec-stubbed_env/issues
-[🤝gh-pulls]: https://github.com/pboling/rspec-stubbed_env/pulls
-[🤝gh-issues]: https://github.com/pboling/rspec-stubbed_env/issues
-[🤝gh-pulls]: https://github.com/pboling/rspec-stubbed_env/pulls
-[🤝gl-issues]: https://gitlab.com/pboling/rspec-stubbed_env/-/issues
-[🤝gl-pulls]: https://gitlab.com/pboling/rspec-stubbed_env/-/merge_requests
-[🤝cb-issues]: https://codeberg.org/pboling/rspec-stubbed_env/issues
-[🤝cb-pulls]: https://codeberg.org/pboling/rspec-stubbed_env/pulls
+[🤝gh-issues]: https://github.com/galtzo-floss/rspec-stubbed_env/issues
+[🤝gh-pulls]: https://github.com/galtzo-floss/rspec-stubbed_env/pulls
+[🤝gh-issues]: https://github.com/galtzo-floss/rspec-stubbed_env/issues
+[🤝gh-pulls]: https://github.com/galtzo-floss/rspec-stubbed_env/pulls
+[🤝gl-issues]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/issues
+[🤝gl-pulls]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/merge_requests
+[🤝cb-issues]: https://codeberg.org/galtzo-floss/rspec-stubbed_env/issues
+[🤝cb-pulls]: https://codeberg.org/galtzo-floss/rspec-stubbed_env/pulls
 [🤝cb-donate]: https://donate.codeberg.org/
 [🤝contributing]: CONTRIBUTING.md
-[🔑codecov-g♻️]: https://codecov.io/gh/pboling/rspec-stubbed_env/graphs/tree.svg?token=Ad3ets1psE
+[🔑codecov-g♻️]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env/graphs/tree.svg?token=hRnUCPqxMu
 [🖐contrib-rocks]: https://contrib.rocks
-[🖐contributors]: https://github.com/pboling/rspec-stubbed_env/graphs/contributors
-[🖐contributors-img]: https://contrib.rocks/image?repo=pboling/rspec-stubbed_env
-[🚎contributors-gl]: https://gitlab.com/pboling/rspec-stubbed_env/-/graphs/main
+[🖐contributors]: https://github.com/galtzo-floss/rspec-stubbed_env/graphs/contributors
+[🖐contributors-img]: https://contrib.rocks/image?repo=galtzo-floss/rspec-stubbed_env
+[🚎contributors-gl]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/graphs/main
 [🪇conduct]: CODE_OF_CONDUCT.md
 [🪇conduct-img]: https://img.shields.io/badge/Contributor_Covenant-2.1-259D6C.svg
 [📌pvc]: http://guides.rubygems.org/patterns/#pessimistic-version-constraint
@@ -585,8 +587,8 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [📄ilo-declaration-img]: https://img.shields.io/badge/ILO_Fundamental_Principles-✓-259D6C.svg?style=flat
 [🚎yard-current]: http://rubydoc.info/gems/rspec-stubbed_env
 [🚎yard-head]: https://rspec-stubbed-env.galtzo.com
-[💎stone_checksums]: https://github.com/pboling/stone_checksums
-[💎SHA_checksums]: https://gitlab.com/pboling/rspec-stubbed_env/-/tree/main/checksums
+[💎stone_checksums]: https://github.com/galtzo-floss/stone_checksums
+[💎SHA_checksums]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/tree/main/checksums
 [💎rlts]: https://github.com/rubocop-lts/rubocop-lts
 [💎rlts-img]: https://img.shields.io/badge/code_style_%26_linting-rubocop--lts-34495e.svg?plastic&logo=ruby&logoColor=white
 [💎d-in-dvcs]: https://railsbling.com/posts/dvcs/put_the_d_in_dvcs/
