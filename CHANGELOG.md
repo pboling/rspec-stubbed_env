@@ -12,6 +12,17 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 ### Fixed
 ### Security
 
+## [1.0.4] - 2025-08-04
+- TAG: [v1.0.4][1.0.4t]
+- COVERAGE: 100.00% -- 73/73 lines in 5 files
+- BRANCH COVERAGE: 100.00% -- 10/10 branches in 5 files
+- 85.71% documented
+### Added
+- Discord notifications for CI, issues, pulls, etc
+### Changed
+- Ownership transfer from pboling to galtzo-floss
+- gemspec metadata (homepage, funding, etc)
+
 ## [1.0.3] - 2025-07-28
 - TAG: [v1.0.3][1.0.3t]
 - COVERAGE: 100.00% -- 73/73 lines in 5 files
@@ -75,7 +86,9 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
 [@darhazer]: https://github.com/darhazer
 [@hosamaly]: https://github.com/hosamaly
 
-[Unreleased]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.3...main
+[Unreleased]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.4...main
+[1.0.4]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.3...v1.0.4
+[1.0.4t]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/tags/v1.0.4
 [1.0.3]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.2...v1.0.3
 [1.0.3t]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/tags/v1.0.3
 [1.0.2]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/compare/v1.0.1...v1.0.2
