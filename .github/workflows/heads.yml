@@ -45,13 +45,13 @@ jobs:
             rubygems: default
             bundler: default
 
-          # truffleruby-head
-          - ruby: "truffleruby-head"
-            appraisal: "head"
-            exec_cmd: "rake spec"
-            gemfile: "Appraisal.root"
-            rubygems: default
-            bundler: default
+#          # truffleruby-head
+#          - ruby: "truffleruby-head"
+#            appraisal: "head"
+#            exec_cmd: "rake spec"
+#            gemfile: "Appraisal.root"
+#            rubygems: default
+#            bundler: default
 
           # jruby-head
           - ruby: "jruby-head"
