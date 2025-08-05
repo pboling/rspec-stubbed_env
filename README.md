@@ -493,7 +493,7 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [🔑qlty-cov]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env/metrics/code?sort=coverageRating
 [🔑qlty-covi]: https://qlty.sh/gh/galtzo-floss/projects/rspec-stubbed_env/coverage.svg
 [🔑codecov]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env
-[🔑codecovi♻️]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env/branch/main/graph/badge.svg?token=Ad3ets1psE
+[🔑codecovi♻️]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env/graph/badge.svg?token=hRnUCPqxMu
 [🔑coveralls]: https://coveralls.io/github/galtzo-floss/rspec-stubbed_env?branch=main
 [🔑coveralls-img]: https://coveralls.io/repos/github/galtzo-floss/rspec-stubbed_env/badge.svg?branch=main
 [🔑depfu]: https://depfu.com/github/galtzo-floss/rspec-stubbed_env?project_id=5884
@@ -558,7 +558,7 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [🤝cb-pulls]: https://codeberg.org/galtzo-floss/rspec-stubbed_env/pulls
 [🤝cb-donate]: https://donate.codeberg.org/
 [🤝contributing]: CONTRIBUTING.md
-[🔑codecov-g♻️]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env/graphs/tree.svg?token=Ad3ets1psE
+[🔑codecov-g♻️]: https://codecov.io/gh/galtzo-floss/rspec-stubbed_env/graphs/tree.svg?token=hRnUCPqxMu
 [🖐contrib-rocks]: https://contrib.rocks
 [🖐contributors]: https://github.com/galtzo-floss/rspec-stubbed_env/graphs/contributors
 [🖐contributors-img]: https://contrib.rocks/image?repo=galtzo-floss/rspec-stubbed_env
