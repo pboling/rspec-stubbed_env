@@ -11,4 +11,6 @@ lib/rspec/stubbed_env/stub_helpers.rb -- 8 warnings:
   [43]:UncommunicativeVariableName: RSpec::StubbedEnv::StubHelpers#stub_env has the variable name 'k' [https://github.com/troessner/reek/blob/v6.5.0/docs/Uncommunicative-Variable-Name.md]
   [43]:UncommunicativeVariableName: RSpec::StubbedEnv::StubHelpers#stub_env has the variable name 'v' [https://github.com/troessner/reek/blob/v6.5.0/docs/Uncommunicative-Variable-Name.md]
   [78]:UtilityFunction: RSpec::StubbedEnv::StubHelpers#env_stubbed? doesn't depend on instance state (maybe move it to another class?) [https://github.com/troessner/reek/blob/v6.5.0/docs/Utility-Function.md]
-11 total warnings
+.yard_gfm_support.rb -- 1 warning:
+  [9, 9]:FeatureEnvy: KramdownGfmDocument#initialize refers to 'options' more than self (maybe move it to another class?) [https://github.com/troessner/reek/blob/v6.5.0/docs/Feature-Envy.md]
+12 total warnings
