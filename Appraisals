@@ -22,10 +22,10 @@
 #    - Broken workflow indicates that a new contributor will have a bad time
 #
 appraise "deps_unlocked" do
-  eval_gemfile("modular/audit.gemfile")
-  eval_gemfile("modular/coverage.gemfile")
-  eval_gemfile("modular/documentation.gemfile")
-  eval_gemfile("modular/style.gemfile")
+  eval_gemfile "modular/audit.gemfile"
+  eval_gemfile "modular/coverage.gemfile"
+  eval_gemfile "modular/documentation.gemfile"
+  eval_gemfile "modular/style.gemfile"
 end
 
 # Used for head (nightly) releases of ruby, truffleruby, and jruby.
