@@ -1,7 +1,7 @@
-[![Galtzo FLOSS Logo by Aboling0, CC BY-SA 4.0][🖼️galtzo-i]][🖼️logos] [![rspec Logo by Ninefold, a Macquarie Telecom company, CC BY-NC-SA 4.0][🖼️rspec-i]][🖼️rspec] [![ruby-lang Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5][🖼️ruby-lang-i]][🖼️ruby-lang] [![rspec-stubbed_env Logo by Aboling0, CC BY-SA 4.0][🖼️rspec-stubbed_env-i]][🖼️rspec-stubbed_env]
+[![Galtzo FLOSS Logo by Aboling0, CC BY-SA 4.0][🖼️galtzo-i]][🖼️galtzo-discord] [![rspec Logo by Ninefold, a Macquarie Telecom company, CC BY-NC-SA 4.0][🖼️rspec-i]][🖼️rspec] [![ruby-lang Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5][🖼️ruby-lang-i]][🖼️ruby-lang] [![rspec-stubbed_env Logo by Aboling0, CC BY-SA 4.0][🖼️rspec-stubbed_env-i]][🖼️rspec-stubbed_env]
 
 [🖼️galtzo-i]: https://logos.galtzo.com/assets/images/galtzo-floss/avatar-192px.svg
-[🖼️logos]: https://github.com/galtzo-floss
+[🖼️galtzo-discord]: https://discord.gg/3qme4XHNKN
 [🖼️rspec-i]: https://logos.galtzo.com/assets/images/rspec/avatar-192px.svg
 [🖼️rspec]: https://github.com/rspec
 [🖼️ruby-lang-i]: https://logos.galtzo.com/assets/images/ruby-lang/avatar-192px.svg
