@@ -56,6 +56,14 @@ end
 
 This gem has no runtime dependencies.
 
+I expect the current release of this gem to be compatible with Ruby 1.8.7+,
+but it is only tested on CI against Ruby 2.3+,
+due to the inherent limitations of GitHub Actions.
+
+| 🚚 _Amazing_ test matrix was brought to you by | 🔎 appraisal2 🔎                                                                     |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
+| 👟 Check it out!                               | ✨ [github.com/appraisal-rb/appraisal2](https://github.com/appraisal-rb/appraisal2) ✨ |
+
 ## 💡 Info you can shake a stick at
 
 ### Federated DVCS

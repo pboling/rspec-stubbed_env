@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning v2](https://semver.org/spec/v2.
   - Join: https://discord.gg/3qme4XHNKN
 - REEK list of things to work on (for devs)
 - More binstubs (for devs)
+- `Version` module, with backwards compatibility for deprecated `VERSION` constant
 ### Fixed
 - Bad links in documentation
 - Compat with Ruby 1.8.7, and 1.9.0
