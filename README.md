@@ -297,10 +297,6 @@ git branch -u origin/main main
 git remote set-head origin -a
 ```
 
-### 🚀 Release Instructions
-
-See [CONTRIBUTING.md][🤝contributing].
-
 ## 🔐 Security
 
 See [SECURITY.md][🔐security].
@@ -314,6 +310,10 @@ or use the gem and think about how it could be better.
 We [![Keep A Changelog][📗keep-changelog-img]][📗keep-changelog] so if you make changes, remember to update it.
 
 See [CONTRIBUTING.md][🤝contributing] for more detailed instructions.
+
+### 🚀 Release Instructions
+
+See [CONTRIBUTING.md][🤝contributing].
 
 ### Code Coverage
 
