@@ -16,6 +16,74 @@
     </content>
     <orderEntry type="jdk" jdkName="mise: 3.4.5" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="floss_funding (v0.1.0) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="Peter H. Boling" />
+              <option name="email" value="peter.boling@gmail.com" />
+              <option name="homepage" value="TODO: Put your gem's website or public repo URL here." />
+              <option name="summary" value="TODO: Write a short summary, because RubyGems requires one." />
+            </AdditionalInfo>
+          </option>
+          <option name="dependencies">
+            <list>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="0" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="bundler" />
+              </Dependency>
+            </list>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="floss_funding" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../galtzo-floss/floss_funding" />
+          <option name="version" value="0.1.0" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/bin" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/exe" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/lib" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/sig" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.git" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/spec" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.idea" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/bin" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/exe" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/lib" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/sig" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.git" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/spec" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.idea" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/bin" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/exe" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.git" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/spec" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.idea" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="ansi (v1.5.0, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="appraisal2 (v3.0.0, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.3, mise: 3.4.5) [gem]" level="application" />
