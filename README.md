@@ -549,8 +549,6 @@ P.S. If you need help️, or want to say thanks, 👇 Join the Discord.
 [💎jruby-headi]: https://img.shields.io/badge/JRuby-HEAD-FBE742?style=for-the-badge&logo=ruby&logoColor=blue
 [🤝gh-issues]: https://github.com/galtzo-floss/rspec-stubbed_env/issues
 [🤝gh-pulls]: https://github.com/galtzo-floss/rspec-stubbed_env/pulls
-[🤝gh-issues]: https://github.com/galtzo-floss/rspec-stubbed_env/issues
-[🤝gh-pulls]: https://github.com/galtzo-floss/rspec-stubbed_env/pulls
 [🤝gl-issues]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/issues
 [🤝gl-pulls]: https://gitlab.com/galtzo-floss/rspec-stubbed_env/-/merge_requests
 [🤝cb-issues]: https://codeberg.org/galtzo-floss/rspec-stubbed_env/issues
