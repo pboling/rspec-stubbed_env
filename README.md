@@ -321,10 +321,12 @@ See [CONTRIBUTING.md][🤝contributing].
 
 [![Coveralls Test Coverage][🔑coveralls-img]][🔑coveralls]
 
+[![QLTY Test Coverage][🔑qlty-covi]][🔑qlty-cov]
+
 ### 🪇 Code of Conduct
 
-Everyone interacting in this project's codebases, issue trackers,
-chat rooms and mailing lists is expected to follow the [![Contributor Covenant 2.1][🪇conduct-img]][🪇conduct].
+Everyone interacting with this project's codebases, issue trackers,
+chat rooms and mailing lists agrees to follow the [![Contributor Covenant 2.1][🪇conduct-img]][🪇conduct].
 
 ## 🌈 Contributors
 
@@ -379,7 +381,7 @@ For example:
 spec.add_dependency("rspec-stubbed_env", "~> 1.0")
 ```
 
-See [CHANGELOG.md][📌changelog] for list of releases.
+See [CHANGELOG.md][📌changelog] for a list of releases.
 
 ## 📄 License
 
@@ -407,7 +409,7 @@ Having arrived at the bottom of the page, please endure a final supplication.
 The primary maintainer of this gem, Peter Boling, wants
 Ruby to be a great place for people to solve problems, big and small.
 Please consider supporting his efforts via the giant yellow link below,
-or one of smaller ones, depending on button size preference.
+or one of the smaller ones, depending on button size preference.
 
 [![Buy me a latte][🖇buyme-img]][🖇buyme]
 
