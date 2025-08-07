@@ -4,15 +4,15 @@ gem_version =
   if RUBY_VERSION >= "3.1"
     # Loading Version into an anonymous module allows version.rb to get code coverage from SimpleCov!
     # See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-2630782358
-    Module.new.tap { |mod| Kernel.load("lib/rspec/stubbed_env/version.rb", mod) }::RSpec::StubbedEnv::VERSION
+    Module.new.tap { |mod| Kernel.load("lib/rspec/stubbed_env/version.rb", mod) }::RSpec::StubbedEnv::Version::VERSION
   else
-    # NOTE: Have to use __FILE__ until Ruby 1.x support is dropped
-    # __dir__ is not available until Ruby 1.9.1
+    # NOTE: Use __FILE__ until removal of Ruby 1.x support
+    # __dir__ introduced in Ruby 1.9.1
     # lib = File.expand_path("lib", __dir__)
     lib = File.expand_path("../lib", __FILE__)
     $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
     require "rspec/stubbed_env/version"
-    RSpec::StubbedEnv::VERSION
+    RSpec::StubbedEnv::Version::VERSION
   end
 
 Gem::Specification.new do |spec|
