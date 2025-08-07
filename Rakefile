@@ -75,8 +75,13 @@ begin
 
   YARD::Rake::YardocTask.new(:yard) do |t|
     t.files = [
-      # Splats (alphabetical)
+      # Source Splats (alphabetical)
       "lib/**/*.rb",
+      "-", # source and extra docs are separated by "-"
+      # Extra Files (alphabetical)
+      "*.cff",
+      "*.md",
+      "*.txt",
     ]
   end
   defaults << "yard"
