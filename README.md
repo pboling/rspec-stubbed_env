@@ -5,7 +5,7 @@
 [🖼️rspec-i]: https://logos.galtzo.com/assets/images/rspec/avatar-192px.svg
 [🖼️rspec]: https://github.com/rspec
 [🖼️ruby-lang-i]: https://logos.galtzo.com/assets/images/ruby-lang/avatar-192px.svg
-[🖼️ruby-lang]: https://github.com/ruby-lang
+[🖼️ruby-lang]: https://www.ruby-lang.org/
 [🖼️rspec-stubbed_env-i]: https://logos.galtzo.com/assets/images/galtzo-floss/rspec-stubbed_env/avatar-192px.svg
 [🖼️rspec-stubbed_env]: https://github.com/galtzo-floss/rspec-stubbed_env
 
