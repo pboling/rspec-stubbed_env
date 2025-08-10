@@ -16,6 +16,223 @@
     </content>
     <orderEntry type="jdk" jdkName="mise: 3.4.5" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="floss_funding (v[path]) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="Peter H. Boling" />
+              <option name="email" value="floss@galtzo.com" />
+              <option name="homepage" value="https://github.com/galtzo-floss/#{spec.name}" />
+              <option name="summary" value="Help overlooked open source projects by funding them." />
+            </AdditionalInfo>
+          </option>
+          <option name="dependencies">
+            <list>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="1.0" />
+                    </Bound>
+                    <Bound>
+                      <option name="operator" value="=" />
+                      <option name="version" value="1.0.1" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="month-serializer" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="1.0" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="stone_checksums" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="3.0" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="appraisal2" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="3.13" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="rspec" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="1.0" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="rspec-block_is_expected" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="0.6" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="rspec_junit_formatter" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="1.0" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="rspec-stubbed_env" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="1.0" />
+                    </Bound>
+                    <Bound>
+                      <option name="operator" value="&gt;=" />
+                      <option name="version" value="1.0.11" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="silent_stream" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="0.9" />
+                    </Bound>
+                    <Bound>
+                      <option name="operator" value="&gt;=" />
+                      <option name="version" value="0.9.10" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="timecop" />
+              </Dependency>
+              <Dependency>
+                <option name="bounds">
+                  <list>
+                    <Bound>
+                      <option name="operator" value="~&gt;" />
+                      <option name="version" value="13.0" />
+                    </Bound>
+                  </list>
+                </option>
+                <option name="doRequire" value="true" />
+                <option name="name" value="rake" />
+              </Dependency>
+            </list>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="floss_funding" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/../../galtzo-floss/floss_funding" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/bin" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/lib" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/pkg" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/sig" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.git" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/docs" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/spec" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/test" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.idea" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.qlty" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/certs" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.github" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.yardoc" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/results" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/coverage" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/gemfiles" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/checksums" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.devcontainer" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/bin" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/lib" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/pkg" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/sig" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.git" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/docs" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/spec" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/test" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.idea" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.qlty" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/certs" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.github" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.yardoc" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/results" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/coverage" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/gemfiles" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/checksums" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.devcontainer" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/bin" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/pkg" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.git" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/docs" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/spec" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/test" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.idea" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.qlty" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/certs" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.github" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.yardoc" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/results" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/coverage" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/gemfiles" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/checksums" />
+          <root url="file://$MODULE_DIR$/../../galtzo-floss/floss_funding/.devcontainer" />
+        </excluded>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="ansi (v1.5.0, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="appraisal2 (v3.0.0, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.3, mise: 3.4.5) [gem]" level="application" />
@@ -50,6 +267,8 @@
     <orderEntry type="library" scope="PROVIDED" name="lint_roller (v1.1.0, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="logger (v1.7.0, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.1.0, mise: 3.4.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="month (v2.1.0, mise: 3.4.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="month-serializer (v1.0.1, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.18.9, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ostruct (v0.6.3, mise: 3.4.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="parallel (v1.27.0, mise: 3.4.5) [gem]" level="application" />
