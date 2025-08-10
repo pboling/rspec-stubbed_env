@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# external gems
+require "floss_funding"
+
 # This Gem
 require "rspec/stubbed_env/version"
 require "rspec/stubbed_env/hide_helpers"
@@ -31,5 +34,6 @@ require "rspec/stubbed_env/config"
 module RSpec
   # Gem Namespace
   module StubbedEnv
+    include FlossFunding::Poke.new(__FILE__)
   end
 end

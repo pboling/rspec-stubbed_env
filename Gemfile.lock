@@ -15,6 +15,12 @@ PATH
   specs:
     rspec-stubbed_env (1.0.5)
 
+PATH
+  remote: /home/pboling/src/galtzo-floss/floss_funding
+  specs:
+    floss_funding (1.0.0.pre.alpha.1)
+      month-serializer (~> 1.0, = 1.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -95,8 +101,9 @@ GEM
     lint_roller (1.1.0)
     logger (1.7.0)
     method_source (1.1.0)
-    nokogiri (1.18.9-arm64-darwin)
-      racc (~> 1.4)
+    month (2.1.0)
+    month-serializer (1.0.1)
+      month (>= 1.4.0)
     nokogiri (1.18.9-x86_64-linux-gnu)
       racc (~> 1.4)
     ostruct (0.6.3)
@@ -250,7 +257,6 @@ GEM
     zeitwerk (2.7.3)
 
 PLATFORMS
-  arm64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
@@ -258,6 +264,7 @@ DEPENDENCIES
   benchmark (~> 0.4, >= 0.4.1)
   bundler-audit (~> 0.9.2)
   debug (>= 1.0.0)
+  floss_funding!
   gem_bench (~> 2.0, >= 2.0.5)
   kettle-soup-cover (~> 1.0, >= 1.0.6)
   kramdown (~> 2.5, >= 2.5.1)
