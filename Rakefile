@@ -1,13 +1,15 @@
 # frozen_string_literal: true
 
-# Galtzo FLOSS Rakefile v1.0 - 2025-08-12
+# Galtzo FLOSS Rakefile v1.0.1 - 2025-08-12
 #
 # MIT License (see License.txt)
 #
 # Copyright (c) 2025 Peter H. Boling (galtzo.com)
 #
 # Expected to work in any project that uses Bundler.
+#
 # Sets up tasks for rspec, minitest, rubocop, reek, yard, and stone_checksums.
+#
 # rake build                            # Build my_gem-1.0.0.gem into the pkg directory
 # rake build:checksum                   # Generate SHA512 checksum of my_gem-1.0.0.gem into the checksums directory
 # rake build:generate_checksums         # Generate both SHA256 & SHA512 checksums into the checksums directory, and git commit them
@@ -98,8 +100,16 @@ rescue LoadError
   end
 end
 
-desc "run spec task with test task"
-task test: :spec
+if Rake::Task.task_defined?('spec') && !Rake::Task.task_defined?('test')
+  desc "run spec task with test task"
+  task test: :spec
+elsif !Rake::Task.task_defined?('spec') && Rake::Task.task_defined?('test')
+  desc "run test task with spec task"
+  task spec: :test
+else
+  # Add spec as pre-requisite to 'test'
+  Rake::Task[:test].enhance(['spec'])
+end
 
 # Setup RuboCop-LTS
 begin
